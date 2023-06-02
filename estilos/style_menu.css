@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightgray;
+}
+
+.menu {
+    background-color: rgb(98, 98, 236);
+    text-align: center;
+  }
+  
+  #logo{
+    width: 100px;
+    height: 100px;
+  }
+
+  .contenido {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
