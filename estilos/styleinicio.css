@@ -95,7 +95,7 @@ h1{
         font-family: 'ABeeZee', sans-serif;
         text-decoration: none;
         color: black;
-        font-size: 12px;
+        font-size: 10px;
         padding: 7px 13px;
         border-radius: 3px;
         text-transform: capitalize;
@@ -103,11 +103,20 @@ h1{
     }
 	.containerB{
         width: 90%;
-        height: 668px;
+        height: 731px;
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
         grid-gap: 2rem;
     
+    }
+    #txtbanner{
+        color: white;
+        font-size: 10vh;
+        font-family: 'ABeeZee', sans-serif;
+        margin: 2rem 0;
+        font-size: 1.3rem;
+        line-height: 2rem;
+        text-align: justify;
     }
 }
