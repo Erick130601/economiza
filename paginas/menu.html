@@ -31,18 +31,59 @@
                         </a>
                     </div>
 
-                    <div class="item separator">
-                        
-                    </div>
+                    <div class="item separator"></div>
 
                     <div class="item">
                         <a href="#">
-                            <div class="icon"> <img src="../imagenes/menu/registro_ingresos_egresos.png" alt="">  </div>
+                            <div class="icon"> <img src="../imagenes/menu/ingresos_vs_gastos.png" alt="">  </div>
+                            <div class="title"><span>Resumenes</span> </div>
+                        </a>
+                    </div>
+
+                    <div class="item separator"></div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="icon"> <img src="../imagenes/menu/servicios_herramientas.png" alt="">  </div>
+                            <div class="title"><span>Ingresos y Egresos</span> </div>
+                        </a>
+                    </div>
+                    
+                    <div class="item separator"></div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="icon"> <img src="../imagenes/menu/notificaciones.png" alt="">  </div>
                             <div class="title"><span>Ingresos y Egresos</span> </div>
                         </a>
                     </div>
 
+                    <div class="item separator"></div>
 
+                    <div class="item">
+                        <a href="#">
+                            <div class="icon"> <img src="../imagenes/menu/encuesta.png" alt="">  </div>
+                            <div class="title"><span>Ingresos y Egresos</span> </div>
+                        </a>
+                    </div>
+
+                    <div class="item separator"></div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="icon"> <img src="../imagenes/menu/foro.png" alt="">  </div>
+                            <div class="title"><span>Ingresos y Egresos</span> </div>
+                        </a>
+                    </div>
+
+                    <div class="item separator"></div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="icon"> <img src="../imagenes/menu/cuentas_bancarias.png" alt="">  </div>
+                            <div class="title"><span>Ingresos y Egresos</span> </div>
+                        </a>
+                    </div>
                 </div>
 
             </div>
@@ -51,15 +92,54 @@
         </div>
         
         <div class="contenido">
-            <h1>ss</h1>
+           
+            <div class="rendimiento"> 
+
+                <h1>Rendimiento</h1>
+                
+                <div id="rendiminto1">
+                    <h2>Rendimiento</h2>
+                </div>
+    
+                <div id="rendiminto2">
+                    <h2>Rendimiento</h2>
+                </div>
+    
+                <div id="rendiminto3">
+                    <h2>Rendimiento</h2>
+                </div>
+    
+                <div id="rendiminto4">
+                    <h2>Rendimiento</h2>
+                </div>
+
+            </div>
+
+            <div class="informacion_interes">
+
+
+
+            </div>
+     
+             
         </div>
+
+        <footer id="copyright" class="footer-menu-collapsed">
+            <small >
+                COPYRIGHT &copy; 2023
+                <br>
+            </small>
+        </footer>
 
         <script>
             const btn = document.querySelector('#menu-btn');
             const menu = document.querySelector('#sidemenu');
+            const foot = document.querySelector('#copyright');
             btn.addEventListener('click', e=>{
                 menu.classList.toggle("menu-expanded");
                 menu.classList.toggle("menu-collapsed");
+                foot.classList.toggle("footer-menu-expanded");
+                foot.classList.toggle("footer-menu-collapsed");
 
                 document.querySelector('body').classList.toggle('body-expanded');
             } );
