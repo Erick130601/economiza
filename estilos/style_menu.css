@@ -56,14 +56,62 @@ body::before{
 
 .menu {
     background-color: rgb(98, 98, 236);
+    height: 100px;
   }
  
   #logo{
+    float:left;
     width: 100px;
-    height: 100px;
+    height: 100%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 46%;
+    background-color: white;
+  }
+
+  .info{
+    padding-top: 0.7%;
+    margin-left: 80%;
+    background-color: red;
+    width: 20%;
+    height: 100px;
+  }
+
+  .info #title-Info{
+    background-color: cornflowerblue;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .info img{
+    background-color: ghostwhite;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    position: absolute;
+    top: 1%;
+    left: 94%;
+  }
+
+  #cerrar-sesion{
+    display: inline-block;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: green;
+    border: 2px solid #000;
+    color: black;
+    transition: background-color 0.3s;
+
+    position: absolute;
+    top: 5.5%;
+    left: 84.5%;
+  }
+
+  #cerrar-sesion:hover {
+    background-color: white;
   }
 
   #sidemenu {
@@ -222,21 +270,51 @@ body::before{
     height: 30px; /* Establece la altura deseada para el footer */
   }
 
+  /**/
   .contenido{
     height: 839px;
     background-color: pink;
   }
 
   .rendimiento{
+    margin-left: auto; 
+    margin-right: auto;
     height: 70%;
+    width: 90%;
     background-color: peru;
   }
 
-  .rendimiento{
+
+  .rendimiento .box-rendi{
+    padding: 10px;
+    width: 40%;
+    height: 20%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+  }
+
+  .rendimiento h1{
+    padding-bottom: 2%;
+  }
+  .rendimiento #rendi1{
+    float: right;
+    margin-right: 10%;
+    background-color: green;
+  }
+
+  .rendimiento  #rendi3{
+    float: right;
+    margin-right: 10%;
+    background-color: green;
+  }
+
+ /* .rendimiento{
     padding: 10px;
     width: 20%;
     background-color: darkcyan;
-  }
+  }*/
 
 
   /**/
