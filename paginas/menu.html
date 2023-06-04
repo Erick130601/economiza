@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-with,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Enconomiza</title>
+        <link rel="stylesheet" href="../estilos/style_menu.css">
+        <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="menu">
+            <div id="sidemenu" class="menu-collapsed">
+
+                <!-- Header -->
+                <div id="header">
+                    <div id="title"><span>MENU</span></div>
+                    <div id="menu-btn">
+                        <div class="btn-hamburger"></div>
+                        <div class="btn-hamburger"></div>
+                        <div class="btn-hamburger"></div>
+                    </div>
+                </div>
+
+                <!-- Items -->
+                <div id="menu-items">
+                    <div class="item">
+                        <a href="#">
+                            <div class="icon"> <img src="../imagenes/menu/registro_ingresos_egresos.png" alt="">  </div>
+                            <div class="title"><span>Ingresos y Egresos</span> </div>
+                        </a>
+                    </div>
+
+                    <div class="item separator"></div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="icon"> <img src="../imagenes/menu/ingresos_vs_gastos.png" alt="">  </div>
+                            <div class="title"><span>Resumenes</span> </div>
+                        </a>
+                    </div>
+
+                    <div class="item separator"></div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="icon"> <img src="../imagenes/menu/servicios_herramientas.png" alt="">  </div>
+                            <div class="title"><span>Ingresos y Egresos</span> </div>
+                        </a>
+                    </div>
+                    
+                    <div class="item separator"></div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="icon"> <img src="../imagenes/menu/notificaciones.png" alt="">  </div>
+                            <div class="title"><span>Ingresos y Egresos</span> </div>
+                        </a>
+                    </div>
+
+                    <div class="item separator"></div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="icon"> <img src="../imagenes/menu/encuesta.png" alt="">  </div>
+                            <div class="title"><span>Ingresos y Egresos</span> </div>
+                        </a>
+                    </div>
+
+                    <div class="item separator"></div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="icon"> <img src="../imagenes/menu/foro.png" alt="">  </div>
+                            <div class="title"><span>Ingresos y Egresos</span> </div>
+                        </a>
+                    </div>
+
+                    <div class="item separator"></div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="icon"> <img src="../imagenes/menu/cuentas_bancarias.png" alt="">  </div>
+                            <div class="title"><span>Ingresos y Egresos</span> </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <img id="logo" src="../imagenes/logo.png" alt="Logo">
+           
+            <a id="cerrar-sesion" href="../index.html">
+                <div class="mesage"><span>Cerrar Sesion</span> </div>
+            </a>
+
+            <div class="info">
+
+                <div id="title-Info">
+                    <span>Usuario Apellido</span>
+                    <br>
+                    <span>correo_example@hotmail.com</span>
+                </div>    
+                <img src="../imagenes/usuario.png" alt="">
+            </div>
+        </div>
+        
+        <div class="contenido">
+           
+            <div class="rendimiento"> 
+
+                
+                <h1 id="gran">RENDIMIENTO</h1>
+
+                <a href="#"> 
+                 <div class="box-rendi" id="rendi1">
+                    
+                    <h2>Gastos han disminuido en</h2>
+                    <h1 id="mes">MES MARZO - 20%</h1>
+                    <div class="max">
+                        <h2 id="one">Resumen del Mes - Haz click </h2>
+                    </div>
+                 </div>
+                </a>
+
+
+                <a href="#">
+                  <div class="box-rendi" id="rendi2">
+                    
+                    <!-- <h3>Rendimiento 2</h3> -->
+                    <h2>Gastos han disminuido en</h2>
+                    <h1 id="mes">MES MARZO - 20%</h1>
+                    <div class="max">
+                        <h2 id="one">Resumen del Mes - Haz click </h2>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="#">
+                  <div class="box-rendi" id="rendi3">
+                    <!-- <h3>Rendimiento 3</h3> -->
+                    <h2>Gastos han disminuido en</h2>
+                    <h1 id="mes">MES MARZO - 20%</h1>
+                    <div class="max">
+                        <h2 id="one">Resumen del Mes - Haz click </h2>
+                    </div>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="box-rendi" id="rendi4">
+                    <!-- <h3>Rendimiento 4</h3> -->
+                    <h2>Gastos han disminuido en</h2>
+                    <h1 id="mes">MES MARZO - 20%</h1>
+                    <div class="max">
+                        <h2 id="one">Resumen del Mes - Haz click </h2>
+                    </div>
+                  </div>
+                </a>
+
+
+            </div>
+
+
+            <div class="informacion_interes">
+
+
+
+            </div>
+     
+             
+        </div>
+
+        <footer id="copyright" class="footer-menu-collapsed">
+            <small >
+                COPYRIGHT &copy; 2023
+                <br>
+            </small>
+        </footer>
+
+        <script>
+            const btn = document.querySelector('#menu-btn');
+            const menu = document.querySelector('#sidemenu');
+            const foot = document.querySelector('#copyright');
+            btn.addEventListener('click', e=>{
+                menu.classList.toggle("menu-expanded");
+                menu.classList.toggle("menu-collapsed");
+                foot.classList.toggle("footer-menu-expanded");
+                foot.classList.toggle("footer-menu-collapsed");
+
+                document.querySelector('body').classList.toggle('body-expanded');
+            } );
+        </script>
+     
+    </body>
+
+</html>
