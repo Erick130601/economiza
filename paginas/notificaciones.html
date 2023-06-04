@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-with,initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Enconomiza</title>
-        <link rel="stylesheet" href="../estilos/styleregistroingresos.css">
+        <link rel="stylesheet" href="../estilos/stylenotifi.css">
         <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -107,32 +107,51 @@
                 <img src="../imagenes/usuario.png" alt="">
             </div>
         </div>
-        
-       
+
+
+        <a href="#">
         <div class="contenedor caja1">
-            <h1>REGISTRO DE INGRESOS</h1>
+            <div id="cubo"></div>
+            <br></br>
+            <h1>Ver resumen del mes de marzo</h1>
+            <h2>Haz click para mas información</h2>
                     
         </div>
+        </a>
+
+        <a href="#">
         <div class="contenedor caja2">
-            <h1>REGISTRO DE EGRESOS</h1>
+            <div id="cubo"></div>
+            <br></br>
+            <h1>Alertas de gastos del mes de enero</h1>
+            <h2>Haz click para mas información</h2>
                    
 
         </div>
+        </a>
+
+        <a href="#">
+        <div class="contenedor caja3">
+            <div id="cubo"></div>
+            <br></br>
+            <h1>Nuevas actualizaciones para mejorar tu gestión económica</h1>
+            <h2>Haz click para mas información</h2>
+                   
 
         </div>
+        </a>
+
+        <a href="#">
+        <div class="contenedor caja4">
+            <div id="cubo"></div>
+            <br></br>
+            <h1>Mes de abril en riesgo por porcentaje alto de gastos</h1>
+            <h2>Haz click para mas información</h2>
+                   
+        </div>
+        </a>
 
 
-        
-        <button id="btn-abrir-modal">REGISTRAR</button>
-        <dialog id="modal">
-            <br></br>
-            <br></br>
-            <br></br>
-            <h2>&nbsp;&nbsp;&nbsp;DATOS REGISTRADOS CORRECTAMENTE</h2>
-            <h3>&nbsp;&nbsp;&nbsp;Presione CERRAR para continuar</h3>
-            <button id="btn-cerrar-modal">CERRAR</button>
-
-        </dialog>
 
         <footer id="copyright" class="footer-menu-collapsed">
             <small >
@@ -154,24 +173,6 @@
                 document.querySelector('body').classList.toggle('body-expanded');
             } );
         </script>
-
-
-<script>
-    const btnabrirmodal=
-document.querySelector("#btn-abrir-modal");
-const btncerrarmodal=
-document.querySelector("#btn-cerrar-modal");
-const modal=
-document.querySelector("#modal");
-
-btnabrirmodal.addEventListener("click",()=>{
-    modal.showModal();
-})
-btncerrarmodal.addEventListener("click",()=>{
-    modal.close();
-})
-                
-</script>
      
     </body>
 
