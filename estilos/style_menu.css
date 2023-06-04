@@ -441,12 +441,287 @@ body{
 
    /*Media Queries*/
 
-  @media (max-widh:600px) {
-    .interes-box-content #cont-box2{
-      background-color: black;
+  @media (max-width:800px) {
+    #logo{
+      margin-left: 28.0%;
     }
+
+    .info{
+      padding-top: 0.6%;
+      margin-left: 50%;
+      width: 50%;
+      height: 100px;
+    }
+  
+    .info #title-Info{
+      font-size: 10px;
+      position: absolute;
+      top: 0.5%;
+      left: 52%;
+    }
+  
+    .info img{
+      width: 12%;
+      height: 7%;
+      margin-left: 0.0%;
+      position: absolute;
+      top: 3.2%;
+      left: 84.7%;
+    }
+  
+    #cerrar-sesion{
+      display: inline-block;
+      font-size: 50%;
+      padding: 18px;
+      padding-left: 5%;
+      padding-right: 5%;
+      color: black;
+
+      position: absolute;
+      top: 4.3%;
+      left: 63.5%;
+    }
+
+    .rendimiento{
+      width: 100%;
+    
+    }
+
+
+
+    /*Rendimiento*/
+  
+    .rendimiento .box-rendi{
+      width: 70%;
+      height: 30%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10%;
+    }
+  
+    .rendimiento h1{
+      height: 8.5%;
+      margin-bottom: 5%;
+    }
+
+    
+    .rendimiento #rendi1{
+      float:none;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .rendimiento .rendi-datos{
+      height: 60%;
+      border-radius: 10px 10px 0px 0px; 
+    }
+    
+    .rendimiento .rendi-resumen{
+      height: 50%;
+    }
+    
+    .rendimiento  #rendi3{
+      float:none;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .rendimiento .rendi-datos .gastos-text{
+      font-size: 100%;
+      width: 60%;
+    }
+  
+    .rendimiento .rendi-datos .mes-text{
+      font-size: 200%;
+      margin-top: 2.5%;
+      margin-left: 10%;
+    }
+  
+   .rendimiento .rendi-datos .porcentaje-text{
+      font-size: 340%;
+      margin-right: 10%;
+      margin-top: 3.5%;
+    }
+  
+    .rendimiento .mesage{
+      font-size: 100%;
+      margin-top: 5%;
+      margin-left: 24%;
+      width: 45%;
+    }
+  
+    .rendimiento .img-resumen{
+      margin-top: 4.2%;
+      margin-left: 17%;
+      height: 45%;
+    }
+  
+    /*Información*/
+
+    .informacion_interes{
+      margin-top: 75%;
+      background-color: gray;
+    }
+    
+    #titulo-interes{
+      font-size: 150%;
+      width: 38.9%;
+      margin-bottom: 4.5%;
+    }
+  
+    .interes-box-content{
+      width: 90%;
+      height: 22%;
+      margin-top: 1%;
+      margin-bottom: 4%;  
+    }
+  
+    .interes-box-content .content-box{
+      width: 6%;
+      height: 100%;
+      padding-top: 1.0%;
+    }
+
+ 
+    .content-box .box-texto{
+      margin-top: 14px;
+    }
+  
+    .content-box  #texto-info1{
+      background-color: white;
+      margin-left: 175%;
+      width: 1400%;
+      font-size: 95%;
+    }
+  
+    .content-box  #texto-info2{
+      background-color: white;
+      margin-left: 200%;
+      width: 1300%;
+      font-size: 90%;
+    }
+    
+    .content-box  #texto-info2{
+      background-color: blue;
+    }
+
+
   }
 
+
+  @media (max-width:500px){
+    #logo{
+      margin-left: 28.0%;
+    }
+  
+    .info #title-Info{
+      margin-top: 1%;
+      font-size: 8px;
+      left: 55%;
+    }
+  
+    .info img{
+      width: 11%;
+      height: 5.5%;
+      margin-left: 1.4%;
+      position: absolute;
+      top: 4.3%;
+    }
+  
+    #cerrar-sesion{
+      display: inline-block;
+      font-size: 50%;
+      margin-top: 1%;
+      padding: 14px;
+      padding-left: 4%;
+      padding-right: 4%;
+      color: black;
+      position: absolute;
+      top: 4.3%;
+      left: 63.5%;
+    }
+
+
+    /*Rendimiento*/
+
+    .rendimiento .rendi-datos .gastos-text{
+      font-size: 80%;
+      width: 60%;
+    }
+  
+    .rendimiento .rendi-datos .mes-text{
+      margin-top: 7.5%;
+      font-size: 140%;
+    }
+  
+   .rendimiento .rendi-datos .porcentaje-text{
+      font-size: 250%;
+      margin-right: 4%;
+      margin-top: 8.5%;
+    }
+  
+    .rendimiento .mesage{
+      font-size: 80%;
+      margin-top: 5%;
+      margin-left: 24%;
+      width: 45%;
+    }
+    
+    .rendimiento .img-resumen{
+      height: 40%;
+    }
+    
+     /*Aca me quede*/
+    /*Información*/
+
+    .informacion_interes{
+      margin-top: 90%;
+      background-color: gray;
+    }
+    
+    #titulo-interes{
+      font-size: 150%;
+      width: 38.9%;
+      margin-bottom: 4.5%;
+    }
+  
+    .interes-box-content{
+      width: 90%;
+      height: 22%;
+      margin-top: 1%;
+      margin-bottom: 4%;  
+    }
+  
+    .interes-box-content .content-box{
+      width: 6%;
+      height: 100%;
+      padding-top: 1.0%;
+    }
+
+ 
+    .content-box .box-texto{
+      margin-top: 14px;
+    }
+  
+    .content-box  #texto-info1{
+      background-color: white;
+      margin-left: 175%;
+      width: 1400%;
+      font-size: 95%;
+    }
+  
+    .content-box  #texto-info2{
+      background-color: white;
+      margin-left: 200%;
+      width: 1300%;
+      font-size: 90%;
+    }
+    
+    .content-box  #texto-info2{
+      background-color: blue;
+    }
+
+  }
 
  /* .rendimiento{
     padding: 10px;
