@@ -39,7 +39,7 @@ body{
 .menu {
     background-color: white;
     height: 100px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, .16);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.16);
   }
  
   #logo{
@@ -393,18 +393,19 @@ body{
   
   #titulo-interes{
     width: 20%;
-    margin-left: auto;
+    margin-left: auto; 
     margin-right: auto;
   }
 
   .interes-box-content{
     width: 60%;
-    margin-top: 1%;
+    margin-top: 1%;  
     margin-left: auto;
     margin-right: auto;
     height: 27%;
+    background-color: hsla(0, 12%, 95%, 0.973);
     border-radius: 10px;
-    border: 2px solid #000;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.16);
   }
 
   .interes-box-content .content-box{
@@ -436,6 +437,14 @@ body{
     text-align: center;
     margin-left: 220px;
     width: 605px;
+  }
+
+   /*Media Queries*/
+
+  @media (max-widh:600px) {
+    .interes-box-content #cont-box2{
+      background-color: black;
+    }
   }
 
 
