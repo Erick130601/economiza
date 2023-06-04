@@ -389,349 +389,6 @@
       height: 30px; /* Establece la altura deseada para el footer */
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    /**/
-    /* .container-form {
-      width: 95%;
-      height: 70%;
-      display: flex;
-      justify-content: space-around;
-  
-      background-color:yellow;
-  }
-  
-  .welcome-back {
-      display: block;
-      align-items: center;
-      text-align: center;
-  }
-  
-  .message {
-      padding: 1rem;
-  }
-  
-  .message h2 {
-      font-size: 1.7rem;
-      padding: 1rem 0;
-  }
-  
-  .message button {
-      padding: 1rem;
-      font-weight: 400;
-      background-color: #4a4aee;
-      border-radius: 2rem;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      font-size: .9rem;
-      margin-top: 2rem;
-      transition: all .3s ease-in;
-      color: #fff;
-  }
-  
-  .message button:hover {
-      background-color: #6464f8;
-  }
-  
-  .formulario {
-      width: 400px;
-      padding: 1rem;
-      margin: 2rem;
-      background-color: rgb(51, 51, 51, 0.602);
-      text-align: center;
-  }
-  .formulario2 {
-    display: inline-block;
-    width: 200px;
-    padding: 10rem;
-    margin: 10rem;
-    background-color: rgb(51, 51, 51, 0.602);
-    text-align: center;
-}
-  
-  .create-account {
-      padding: 2.7rem 0;
-      font-size: 1.7rem;
-  }
-  
-  .iconos {
-      width: 200px;
-      display: flex;
-      justify-content: space-around;
-      margin: auto;
-  }
-  
-  .border-icon {
-      height: 20px;
-      width: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 1.5rem;
-      border: solid thin white;
-      border-radius: 50%;
-      font-size: 1.5rem;
-      transition: all .3s ease-in;
-  }
-  
-  .border-icon:hover {
-      background-color: #4a4aee;
-      cursor: pointer;
-  }
-  
-  .cuenta-gratis {
-      padding: 2rem 0;
-  }
-  
-  .formulario input {
-      width: 70%;
-      display: block;
-      margin: auto;
-      margin-bottom: 2rem;
-      background-color: transparent;
-      border: none;
-      border-bottom: white thin solid;
-      text-align: center;
-      outline: none;
-      padding: .2rem 0;
-      font-size: .9rem;
-      color: white;
-  }
-  
-  .formulario input[type="button"] {
-      width: 60%;
-      margin: auto;
-      border: solid thin white;
-      padding: .7rem;
-      border-radius: 2rem;
-      background-color: white;
-      font-weight: 600;
-      margin-top: 3rem;
-      font-size: .8rem;
-      cursor: pointer;
-      color: #222;
-  }
-  
-  .sign-in {
-      position: absolute;
-      opacity: 0;
-      visibility: hidden;
-  }
-  
-  .sign-in.active {
-      opacity: 1;
-      visibility: visible;
-  }
-  
-  .sign-up.active {
-      opacity: 0;
-      visibility: hidden;
-  }
-
-
-
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* .contenido{
-      height: 490px;
-      min-width: none;
-      min-height: 10px;
-      margin-left: 0rem;
-
-      background-color: orange;
-    }
-  
-    .rendimiento{
-      margin-left: auto; 
-      margin-right: 100px;
-      height: 170%;
-      width: 90%;
-      top: 0;
-      float: none;
-      background-color: white;
-    }
-    .rendimiento1{
-      margin-left: 10px-20px; 
-      margin-right: auto;
-      height: 120px;
-      width: 150px;
-      background-color: white;
-    }
-  
-    .rendimiento .box-rendi{
-      padding: 10px;
-      width: 40%;
-      height: 70%;
-      margin-left: 5%;
-      margin-bottom: 50px;
-      background-color: rgb(123, 165, 242);
-      border-radius: 10px;
-      box-shadow: 0px 5px 10px rgba(0, 0, 0, .16);
-    }
-    .rendimiento1 .box-rendi1{
-      padding: 10px;
-      width: 40%;
-      height:70%;
-      display: block;
- 
-
-      border-radius: 10px;
-      box-shadow: 0px 5px 10px rgba(0, 0, 0, .16);
-    }
-  .rendimiento .max #one{
-    color: black;
-    margin-left: 19px;
-    background-color: transparent;
-    font-size: 30px;
-    margin-top: 5px;
-    text-align: left;
-
-  }
-  .rendimiento1 .max #one{
-    color: black;
-    margin-left: 19px;
-    background-color: transparent;
-    font-size: 30px;
-    margin-top: 5px;
-    text-align: left;
-
-  }
-    .rendimiento #gran{
-        font-family: 'ABeeZee', sans-serif; 
-        font-size: 40px;
-        margin-right: 1300px;
-        color: blue;
-    }
-    .rendimiento1 #gran{
-      font-family: 'ABeeZee', sans-serif; 
-      font-size: 40px;
-      margin-right: 1300px;
-      color: blue;
-  }
-    label{
-        font-size: 30px;
-        
-        position: relative;
-        width: 100px;
-        height: 100px;
-    }
-    .rendimiento h1{
-      float: none;
-      margin-top: 30px ;
-      padding-bottom: 2%;
-
-    }
-    .rendimiento1 h1{
-
-      margin-top: 30px ;
-      padding-bottom: 2%;
-
-    }
-    .rendimiento h2{
-
-        color: #000;
-        padding-bottom: -10%;
-        padding-top: 3%;
-  
-      }
-      .rendimiento1 h2{
-
-        color: #000;
-        padding-bottom: -10%;
-        padding-top: 3%;
-  
-      }
-    .rendimiento {
-        padding-bottom: 2%;
-        color: black;
-        text-decoration: none;
-        font-family: 'ABeeZee', sans-serif;
-        text-align: center;
-        float: none;
-      }
-      .rendimiento1 {
-        padding-bottom: 2%;
-        color: black;
-        text-decoration: none;
-        font-family: 'ABeeZee', sans-serif;
-        text-align: center;
-      }
-      .rendimiento  #mes{
-        font-size: 40px;
-       
-
-        color: white;
-        text-align: center;
-      }
-      .rendimiento1  #mes{
-        font-size: 40px;
-       
-
-        color: white;
-        text-align: center;
-      }
-
-    .rendimiento #rendi1{
-      float: right;
-      margin-right: 55%;
-
-      background-color: red;
-    }
-    .rendimiento #rendi2{
-
-       float: flex;
-        margin-right: 150%;
-        margin-left: 20%;
-        background-color: rgb(98, 98, 236);
-      } */
-
-
-    
-   /* .rendimiento{
-      padding: 10px;
-      width: 20%;
-      background-color: darkcyan;
-    }*/
-  
-  
     /**/
     #sidemenu{
       background-color: gray;
@@ -765,5 +422,149 @@
     
   /**/
   
+  @media screen and (max-width: 800px){
+    .menu {
+      background-color: white;
+      height: 100px;
+      width: 430px;
+      background-color: purple;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, .16);
+
+    }
+   
+    #logo{
+      content-visibility: hidden;
+    }
+  
+    .info{
+      padding-left: 0px;
+      padding-top: -10px;
+      margin-top: 00px;
+      margin-left: 170px;
+      background-color: orange;
+      width: 85px;
+      height: 100px;
+      display: block;
+
+    }
+  
+    .info #title-Info{
+      background-color: red;
+
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  
+    .info img{
+      content-visibility: hidden;
+      background-color: transparent;
+    }
+  
+    #cerrar-sesion{
+      display: inline-block;
+      margin-top: -20px;
+      margin-left: -250px;
+      padding: 10px;
+      padding-left: 30px;
+      padding-right: 15px;
+      text-decoration: none;
+      border-radius: 10px;
+      background-color: blue;
+      border: 2px solid transparent;
+      color: white;
+      transition: background-color 0.3s;
+  
+      position: absolute;
+      top: 5.5%;
+      left: 84.5%;
+    }
+
+
+
+
+
+
+
+    .contenedor {
+      width: 200px;
+      font-size: 10px;
+      margin-left: -2rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      float: left;
+      text-align: center;
+      background-color: rgba(0, 0, 0, .16);
+      margin-left: 20px;
+      padding: 50px;
+      box-shadow: 5px 5px 5px;
+      border-radius: 30px;
+    }
+    .caja1{
+      width: 400px;
+      height: 500px;
+      margin-top: 20px;
+      margin-left: 20px;
+      padding: 50px 0;
+      float: flex;
+    
+    }
+    .caja2{
+      float: flex;
+      width: 400px;
+      height: 600px;
+      margin-top: 20px;
+      padding: 50px 0;
+      
+    }
+    label{
+      font-size: 15px;
+      font-family: 'ABeeZee', sans-serif; 
+      text-align: justify;
+      width: 100px;
+      height: 100px;
+      border: none;
+      cursor: pointer;
+  }
+    .contenedor input {
+      width: 80%;
+      text-align: left;
+      border: none;
+      border-bottom: white thin solid;
+      align-content: center;
+      padding: .2rem 0;
+      font-size: 4px;
+      color: white;
+  }
+  
+  .contenedor input[type="text"] {
+      width: 30%;
+
+  
+      align-content: center;
+      border: solid thin white;
+      padding: .3rem;
+      border-radius: 2rem;
+      background-color: white;
+      font-weight: 700;
+    
+      font-size: .8rem;
+      cursor: pointer;
+      color: #222;
+  }
+  
+    button {
+      background-color: blue;
+      display: inline;
+      font-size: 20px;
+      padding: 10px 40px;
+      align-content: center;
+      border-radius: 10px;
+      margin-left: 200px;
+      margin-top: 17px;
+      color: white;
+      
+    }
+      
+  }
   
   
