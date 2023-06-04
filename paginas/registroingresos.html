@@ -9,7 +9,9 @@
         <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
     </head>
     <body>
+        
 
+  
         <div class="menu">
             <div id="sidemenu" class="menu-collapsed">
 
@@ -95,6 +97,7 @@
                 <div class="mesage"><span>Cerrar Sesion</span> </div>
             </a>
 
+
             <div class="info">
 
                 <div id="title-Info">
@@ -104,8 +107,105 @@
                 </div>    
                 <img src="../imagenes/usuario.png" alt="">
             </div>
+ 
         </div>
         
+       
+        <div class="contenedor caja1">
+            <h1>REGISTRO DE INGRESOS</h1>
+                    <br><br/>
+                    <h3>Rellene los campos en blanco</h2>
+                        <br><br/>
+                    <br>
+                       <label >SUELDO&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                       <input type="text" >
+                    <br/>
+                    <br><br/>
+
+                    <br>
+                        <label >OTRO&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="text" >
+                        
+                        </style>
+                    <br/>
+                    <br><br/>
+
+                    <br>
+                    <label >OTRO&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text">
+                    <br/>
+                    <br><br/>
+
+                    <br>
+                    <label >OTRO&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text">
+                    <br/>  
+                    <br><br/>
+
+                    <br>
+                    <label >OTRO&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text">
+                    <br/>  
+        </div>
+        <div class="contenedor caja2">
+            <h1>REGISTRO DE EGRESOS</h1>
+                    <br><br/>
+                    <h3>Rellene los campos en blanco</h2>
+                        <br><br/>
+                    <br>
+                       <label >ALIMENTACIÓN&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                       <input type="text" >
+                    <br/>
+                    <br><br/>
+
+                    <br>
+                        <label >EDUCACIÓN&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="text" >
+                        
+                        </style>
+                    <br/>
+                    <br><br/>
+
+                    <br>
+                    <label >SALUD&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text">
+                    <br/>
+                    <br><br/>
+
+                    <br>
+                    <label >VESTIMENTA&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text">
+                    <br/>  
+                    <br><br/>
+
+                    <br>
+                    <label >HOGAR&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text">
+                    <br/>  
+                    <br><br/>
+
+                    <br>
+                    <label >TRANSPORTE&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text">
+                    <br/> 
+                     <br><br/>
+                    <br>
+                    <label >OTROS&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text">
+                    <br/> 
+
+        </div>
+
+
+
+
+ 
+
+
+
+
+
+
 
 
 
@@ -158,14 +258,7 @@
                     <br/>  
                 </div>
 
-                
-
-            </div>
-
-
-
-            <div class="rendimiento1"> 
-                  <div class="box-rendi1" id="rendi2">
+                <div class="box-rendi" id="rendi2">
                     
                     <h1>REGISTRO DE INGRESOS</h1>
                     <br><br/>
@@ -203,15 +296,16 @@
                     <br/>  
                   </div>
 
+
+                
+
             </div> -->
 
 
-            <div class="informacion_interes">
 
 
 
-            </div>
-     
+
              
 
 
@@ -221,6 +315,17 @@
 
 
         </div>
+
+        <button id="btn-abrir-modal">REGISTRAR</button>
+        <dialog id="modal">
+            <br></br>
+            <br></br>
+            <br></br>
+            <h2>&nbsp;&nbsp;&nbsp;DATOS REGISTRADOS CORRECTAMENTE</h2>
+            <h3>&nbsp;&nbsp;&nbsp;Presione CERRAR para continuar</h3>
+            <button id="btn-cerrar-modal">CERRAR</button>
+
+        </dialog>
 
         <footer id="copyright" class="footer-menu-collapsed">
             <small >
@@ -242,6 +347,24 @@
                 document.querySelector('body').classList.toggle('body-expanded');
             } );
         </script>
+
+
+<script>
+    const btnabrirmodal=
+document.querySelector("#btn-abrir-modal");
+const btncerrarmodal=
+document.querySelector("#btn-cerrar-modal");
+const modal=
+document.querySelector("#modal");
+
+btnabrirmodal.addEventListener("click",()=>{
+    modal.showModal();
+})
+btncerrarmodal.addEventListener("click",()=>{
+    modal.close();
+})
+                
+</script>
      
     </body>
 
