@@ -762,6 +762,32 @@ display: none;
     color: white;
     
   }
+
+#btn-cerrar-modal{
+ margin-left: 10px;
+}
+
+#modal::backdrop{
+ background-color: rgba(0, 0, 0,.55);
+ align-items: center;
+
+}
+#modal{
+ font-family: 'ABeeZee', sans-serif; 
+ margin-top:70px;
+ margin-left: 120px;
+ max-width: 50ch;
+ height: 400px;
+ width: 300px;
+ text-align: center;
+ border: 1px solid #ccc;
+ border-color: 15px blue;
+
+
+ border-radius: 30px;
+}
+
+  
     
 }
 
