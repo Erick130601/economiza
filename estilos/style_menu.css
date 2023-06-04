@@ -19,24 +19,6 @@ body{
   margin-left: var(--width-collapsed);
 }
 
-/*Color
-body::before{
-    
-  content: "";
-  width: 104%;
-  height: 105%;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: white;
-  background: linear-gradient(blue, aqua);
-
-  opacity: 0.7;
-  z-index: -1;
-}*/
-
-
 .body-expanded{
   margin-left: 8%;
 }
@@ -55,8 +37,9 @@ body::before{
 }
 
 .menu {
-    background-color: rgb(98, 98, 236);
+    background-color: white;
     height: 100px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .16);
   }
  
   #logo{
@@ -65,29 +48,25 @@ body::before{
     height: 100%;
     display: block;
     margin-left: 46%;
-    background-color: white;
   }
 
   .info{
-    padding-top: 0.7%;
+    padding-top: 0.6%;
     margin-left: 80%;
-    background-color: red;
     width: 20%;
     height: 100px;
   }
 
   .info #title-Info{
-    background-color: cornflowerblue;
     float: left;
     margin-left: 10%;
     margin-right: 10%;
   }
 
   .info img{
-    background-color: ghostwhite;
-    width: 80px;
-    height: 80px;
-    margin-left: 20px;
+    width: 4.5%;
+    height: 8%;
+    margin-left: 0.7%;
     position: absolute;
     top: 1%;
     left: 94%;
@@ -96,22 +75,21 @@ body::before{
   #cerrar-sesion{
     display: inline-block;
     padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-decoration: none;
     border-radius: 10px;
-    background-color: green;
     border: 2px solid #000;
     color: black;
     transition: background-color 0.3s;
 
     position: absolute;
     top: 5.5%;
-    left: 84.5%;
+    left: 83.8%;
   }
 
   #cerrar-sesion:hover {
-    background-color: white;
+    background-color: rgba(223, 223, 223, 0.801);
   }
 
   #sidemenu {
@@ -187,6 +165,7 @@ body::before{
 
   #sidemenu #menu-items .item a{
     display: block;
+    transition: background-color 0.3s;
   }
 
   #sidemenu #menu-items .item a:hover{
@@ -217,7 +196,29 @@ body::before{
   #sidemenu #menu-items .item .title{
     padding: var(--padding) 0;
     font-size: 13px;
+    
+  }
+
+  #sidemenu #menu-items .item #icon-1{
     padding-left: 6%;
+  }
+  #sidemenu #menu-items .item #icon-2{
+    padding-left: 12%;
+  }
+  #sidemenu #menu-items .item #icon-3{
+    padding-left: 1.3%;
+  }
+  #sidemenu #menu-items .item #icon-4{
+    padding-left: 10%;
+  }
+  #sidemenu #menu-items .item #icon-5{
+    padding-left: 14.5%;
+  }
+  #sidemenu #menu-items .item #icon-6{
+    padding-left: 19.3%;
+  }
+  #sidemenu #menu-items .item #icon-7{
+    padding-left: 7.4%;
   }
 
   #sidemenu #menu-items .item.separator{
@@ -259,6 +260,7 @@ body::before{
 
   .menu-collapsed #menu-items .title{
    display: none;
+   
   } 
 
 
@@ -266,49 +268,176 @@ body::before{
     margin-top: 0px;
     padding: 6px;
     text-align: center;
-    background-color: yellow;
-    height: 30px; /* Establece la altura deseada para el footer */
+    height: 30px;
   }
 
   /**/
   .contenido{
     height: 839px;
-    background-color: pink;
   }
 
+
+  /*Rendimiento*/
   .rendimiento{
     margin-left: auto; 
     margin-right: auto;
     height: 70%;
     width: 90%;
-    background-color: peru;
-  }
-
-
-  .rendimiento .box-rendi{
-    padding: 10px;
-    width: 40%;
-    height: 20%;
-    margin-left: 5%;
-    margin-bottom: 10px;
-    background-color: yellow;
-    border-radius: 10px;
   }
 
   .rendimiento h1{
-    padding-bottom: 2%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding-left: 3%; 
+    padding-top: 0.7%;
+    color: blue;
+  }
+
+  .rendimiento .box-rendi{
+    width: 45%;
+    height: 40%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid blue;
+  }
+
+  .rendimiento h1{
+    height: 11.5%;
   }
   .rendimiento #rendi1{
     float: right;
-    margin-right: 10%;
-    background-color: green;
+    margin-right: 3%;
+  }
+
+  .rendimiento .rendi-datos{
+    height: 60%;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  
+  .rendimiento #rendi1 .rendi-datos {
+    background-color: blue;
+  }
+
+  .rendimiento #rendi2 .rendi-datos {
+    background-color: blue;
+  }
+
+  .rendimiento #rendi3 .rendi-datos {
+    background-color: blue;
+  }
+
+  .rendimiento #rendi4 .rendi-datos {
+    background-color: red;
+  }
+
+  .rendimiento .rendi-resumen{
+    height: 40%;
   }
 
   .rendimiento  #rendi3{
     float: right;
-    margin-right: 10%;
-    background-color: green;
+    margin-right: 3%;
   }
+
+  .rendimiento .rendi-datos .gastos-text{
+    padding-top: 1.2%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+    color: white;
+  }
+
+  .rendimiento .rendi-datos .mes-text{
+    float: left;
+    font-size: 40px;
+    color: white;
+    margin-top: 0.1%;
+    margin-left: 15%;
+  }
+
+ .rendimiento .rendi-datos .porcentaje-text{
+    float: right;
+    font-size: 65px;
+    color: white;
+    margin-right: 17%;
+    margin-top: 1%;
+  }
+
+  .rendimiento .mesage{
+    font-size: 25px;
+    margin-top: 3%;
+    margin-left: 38%;
+    float: left;
+    width: 30%;
+    color: black;
+  }
+
+  .rendimiento .img-resumen{
+    margin-top: 2%;
+    margin-left: 23%;
+    height: 68%;
+  }
+
+  /*Informacion*/
+  .informacion_interes{
+    margin-left: auto; 
+    margin-right: auto;
+    padding-top: 2%;
+    height: 30%;
+    width: 90%;
+  }
+  
+  #titulo-interes{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .interes-box-content{
+    width: 60%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 27%;
+    border-radius: 10px;
+    border: 2px solid #000;
+  }
+
+  .interes-box-content .content-box{
+    width: 6%;
+    border-radius: 10px  0px 0px 10px;
+    height: 100%;
+    padding-top: 1.5%;
+  }
+
+  .interes-box-content #cont-box1{
+    background-color: orange;
+  }
+
+  .interes-box-content #cont-box2{
+    background-color: cornflowerblue;
+  }
+
+  .content-box .box-texto{
+    margin-bottom: 100px;
+  }
+
+  .content-box  #texto-info1{
+    text-align: center;
+    margin-left: 270px;
+    width: 470px;
+  }
+
+  .content-box  #texto-info2{
+    text-align: center;
+    margin-left: 220px;
+    width: 605px;
+  }
+
 
  /* .rendimiento{
     padding: 10px;
@@ -317,7 +446,7 @@ body::before{
   }*/
 
 
-  /**/
+  /*
   #sidemenu{
     background-color: burlywood;
   }
@@ -346,6 +475,6 @@ body::before{
     background-color: white;
   }
   
-/**/
+*/
 
 
