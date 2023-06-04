@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-with,initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Enconomiza</title>
-        <link rel="stylesheet" href="../estilos/styleregistroingresos.css">
+        <link rel="stylesheet" href="../estilos/stylenotifi.css">
         <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -55,7 +55,7 @@
                     <div class="item separator"></div>
 
                     <div class="item">
-                        <a href="notificaciones.html">
+                        <a href="#">
                             <div class="icon" id="icon-pic4"> <img src="../imagenes/menu/notificaciones.png" alt="">  </div>
                             <div class="title" id="icon-4"><span>Notificaciones</span> </div>
                         </a>
@@ -107,105 +107,18 @@
                 <img src="../imagenes/usuario.png" alt="">
             </div>
         </div>
-        
-       
-        <div class="contenedor caja1">
-            <h1>REGISTRO DE INGRESOS</h1>
-                    <br><br/>
-                    <h3>Rellene los campos en blanco</h2>
-                        <br><br/>
-                    <br>
-                       <label >SUELDO&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                       <input type="text" >
-                    <br/>
-                    <br><br/>
 
-                    <br>
-                        <label >OTRO&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                        <input type="text" >
-                        
-                        </style>
-                    <br/>
-                    <br><br/>
 
-                    <br>
-                    <label >OTRO&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="text">
-                    <br/>
-                    <br><br/>
-
-                    <br>
-                    <label >OTRO&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="text">
-                    <br/>  
-                    <br><br/>
-
-                    <br>
-                    <label >OTRO&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="text">
-                    <br/>  
-        </div>
-        <div class="contenedor caja2">
-            <h1>REGISTRO DE EGRESOS</h1>
-                    <br><br/>
-                    <h3>Rellene los campos en blanco</h2>
-                        <br><br/>
-                    <br>
-                       <label >ALIMENTACIÓN&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                       <input type="text" >
-                    <br/>
-                    <br><br/>
-
-                    <br>
-                        <label >EDUCACIÓN&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                        <input type="text" >
-                        
-                        </style>
-                    <br/>
-                    <br><br/>
-
-                    <br>
-                    <label >SALUD&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="text">
-                    <br/>
-                    <br><br/>
-
-                    <br>
-                    <label >VESTIMENTA&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="text">
-                    <br/>  
-                    <br><br/>
-
-                    <br>
-                    <label >HOGAR&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="text">
-                    <br/>  
-                    <br><br/>
-
-                    <br>
-                    <label >TRANSPORTE&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="text">
-                    <br/> 
-                     <br><br/>
-                    <br>
-                    <label >OTROS&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="text">
-                    <br/> 
-
+        <div class="contenedor caja4">
+ 
+            <br></br>
+            <h1>Mes de abril en riesgo por porcentaje alto de gastos</h1>
+            <h2>Haz click para mas información</h2>
+                   
         </div>
 
-        </div>
 
-        <button id="btn-abrir-modal">REGISTRAR</button>
-        <dialog id="modal">
-            <br></br>
-            <br></br>
-            <br></br>
-            <h2>&nbsp;DATOS REGISTRADOS CORRECTAMENTE</h2>
-            <h3>&nbsp;Presione CERRAR para continuar</h3>
-            <button id="btn-cerrar-modal">CERRAR</button>
 
-        </dialog>
 
         <footer id="copyright" class="footer-menu-collapsed">
             <small >
@@ -227,24 +140,6 @@
                 document.querySelector('body').classList.toggle('body-expanded');
             } );
         </script>
-
-
-<script>
-    const btnabrirmodal=
-document.querySelector("#btn-abrir-modal");
-const btncerrarmodal=
-document.querySelector("#btn-cerrar-modal");
-const modal=
-document.querySelector("#modal");
-
-btnabrirmodal.addEventListener("click",()=>{
-    modal.showModal();
-})
-btncerrarmodal.addEventListener("click",()=>{
-    modal.close();
-})
-                
-</script>
      
     </body>
 
