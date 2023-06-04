@@ -86,6 +86,8 @@ h1{
     line-height: 2rem;
     text-align: justify;
 }
+
+
 @media screen and (max-width: 800px){
     .imgBannerini{
         margin: 5px 30px;
@@ -96,7 +98,7 @@ h1{
         
         text-decoration: none;
         color: black;
-        font-size: 12px;
+        font-size: 10px;
         padding: 7px 13px;
         border-radius: 3px;
         text-transform: capitalize;
