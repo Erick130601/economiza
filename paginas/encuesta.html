@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-with,initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Enconomiza</title>
-        <link rel="stylesheet" href="../estilos/style_menu.css">
+        <link rel="stylesheet" href="../estilos/styleencuesta.css">
         <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -26,7 +26,7 @@
                 <!-- Items -->
                 <div id="menu-items">
                     <div class="item">
-                        <a href="registroingresos.html">
+                        <a href="#">
                             <div class="icon" id="icon-pic1"> <img src="../imagenes/menu/registro_ingresos_egresos.png" alt="">  </div>
                             <div class="title" id="icon-1"><span>Ingresos y Egresos</span> </div>
                         </a>
@@ -35,7 +35,7 @@
                     <div class="item separator"></div>
 
                     <div class="item">
-                        <a href="resumen1.html">
+                        <a href="#">
                             <div class="icon"> <img src="../imagenes/menu/ingresos_vs_gastos.png" alt="">  </div>
                             <div class="title" id="icon-2"><span>Resumenes</span> </div>
                         </a>
@@ -44,7 +44,7 @@
                     <div class="item separator"></div>
 
                     <div class="item">
-                        <a href="serviherramientas.html">
+                        <a href="#">
                             <div class="icon"> <img src="../imagenes/menu/servicios_herramientas.png" alt="">  </div>
                             <div class="title" id="icon-3"><span>Servicios y Herramientas</span> </div>
                         </a> 
@@ -53,7 +53,7 @@
                     <div class="item separator"></div>
 
                     <div class="item">
-                        <a href="notificaciones.html">
+                        <a href="#">
                             <div class="icon" id="icon-pic4"> <img src="../imagenes/menu/notificaciones.png" alt="">  </div>
                             <div class="title" id="icon-4"><span>Notificaciones</span> </div>
                         </a>
@@ -71,7 +71,7 @@
                     <div class="item separator"></div>
 
                     <div class="item">
-                        <a href="foro1.html">
+                        <a href="#">
                             <div class="icon"> <img src="../imagenes/menu/foro.png" alt="">  </div>
                             <div class="title" id="icon-6"><span>Foros</span> </div>
                         </a> 
@@ -106,103 +106,76 @@
             </div>
         </div>
         
-        <div class="contenido">
-           
-            <div class="rendimiento"> 
-            
-                <h1>RENDIMIENTO</h1>
 
-                <div class="box-rendi" id="rendi1">
-                    <div class="rendi-datos">
-                        <p class="gastos-text">Gastos han disminuido </p>
-                        <h2 class= "mes-text">&nbsp;&nbsp;&nbsp;Mes<br>febrero</h2>
-                        <span class= "porcentaje-text">20%</span>
-                    </div>
 
-                    <div class="rendi-resumen">
-                        <a id="resumen-click" href="">
-                            <div class="mesage"><span>Resumen del mes <br> &nbsp; &nbsp;&nbsp;&nbsp; Haz click</span> </div>
-                        </a>
-                        <img class="img-resumen" src="../imagenes/menu/resumen_mes.png" alt="">
+
+
+
+        <div class="container">
+            <div class="frame">
+              <div class="row">
+                <div class="box">
+                  <span class="title">¿Sueles hacer gastos innecesarios en la semana?</span>
+                  <div class="options">
+                    <div class="option">
+                      <span class="label">Sí</span>
                     </div>
-                    
+                    <div class="option">
+                      <span class="label">No</span>
+                    </div>
+                  </div>
                 </div>
-
-
-                <div class="box-rendi" id="rendi2">
-
-                    <div class="rendi-datos">
-                        <p class="gastos-text">Gastos han disminuido </p>
-                        <h2 class= "mes-text">&nbsp;Mes<br>marzo</h2>
-                        <span class= "porcentaje-text">20%</span>
+                <div class="box1">
+                  <span class="title">¿Eres una persona que piensa antes de hacer algún gasto?</span>
+                  <div class="options">
+                    <div class="option">
+                      <span class="label">Sí</span>
                     </div>
-
-                    <div class="rendi-resumen">
-                        <a id="resumen-click" href="">
-                            <div class="mesage"><span>Resumen del mes <br> Haz click</span> </div>
-                        </a>
-                        <img class="img-resumen" src="../imagenes/menu/resumen_mes.png" alt="">
-                    </div> 
-
+                    <div class="option">
+                      <span class="label">No</span>
+                    </div>
+                  </div>
                 </div>
-                
-
-                <div class="box-rendi" id="rendi3">
-
-                    <div class="rendi-datos">
-                        <p class="gastos-text">Gastos han disminuido</p>
-                        <h2 class= "mes-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mes<br>diciembre</h2>
-                        <span class= "porcentaje-text">20%</span>
-                    </div>
-
-                    <div class="rendi-resumen">
-                        <a id="resumen-click" href="">
-                            <div class="mesage"><span>Resumen del mes <br> &nbsp; &nbsp;&nbsp;&nbsp; Haz click</span> </div>
-                        </a>
-                        <img class="img-resumen" src="../imagenes/menu/resumen_mes.png" alt="">
-                    </div>
-
+              </div>
+              <div class="row">
+                <div class="box2">
+                  <span class="title">¿Cuánto sueles gastar a la semana aproximadamente?</span>
+                  <div class="input">
+                    <input type="number" min="0" placeholder="Escribe un número">
+                  </div>
                 </div>
-    
-                <div class="box-rendi" id="rendi4">
-
-                    <div class="rendi-datos">
-                        <p class="gastos-text">Gastos han aumentado </p>
-                        <h2 class= "mes-text">&nbsp;Mes<br>enero</h2>
-                        <span class= "porcentaje-text">20%</span>
-                    </div>
-
-                    <div class="rendi-resumen">
-                        <a id="resumen-click" href="">
-                            <div class="mesage"><span>Resumen del mes <br> &nbsp; &nbsp;&nbsp;&nbsp; Haz click</span> </div>
-                        </a>
-                        <img class="img-resumen" src="../imagenes/menu/resumen_mes.png" alt="">
-                    </div>
-
+                <div class="box3">
+                  <span class="title">¿Cuánto sueles ganar a la semana aproximadamente?</span>
+                  <div class="input">
+                    <input type="number" min="0" placeholder="Escribe un número">
+                  </div>
                 </div>
-
+              </div>
+              <div class="row center-row">
+                <div class="box4">
+                  <span class="title">¿Cuántos gastos innecesarios sueles hacer a la semana aproximadamente?</span>
+                  <div class="input">
+                    <input type="number" min="0" placeholder="Escribe un número">
+                  </div>
+                </div>
+              </div>
             </div>
-
-            <div class="informacion_interes">
-
-                <h1 id="titulo-interes"> Información de Interés</h1>
-
-                <div class="interes-box-content">
-                    <div class="content-box" id="cont-box1">
-                        <h2 class="box-texto" id="texto-info1">Como aumentar ganancias y recudir gastos</h2>
-                    </div>
-                </div>
-
-                <div class="interes-box-content">
-                    <div class="content-box" id="cont-box2">
-                        <h2 class="box-texto" id="texto-info2">Nueva actualización para mejorar la gestión de tu dinero</h2>
-                    </div>
-                </div>
-
+            <div class="submit">
+              <a href="encuesta2.html">
+              <button type="submit">Enviar</button>
+              </a>
             </div>
-     
-             
-        </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
 
         <footer id="copyright" class="footer-menu-collapsed">
             <small >
