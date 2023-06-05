@@ -181,6 +181,7 @@ body{
   }
   
   .menu-collapsed #menu-items .item .icon{
+    
     box-sizing: border-box;
     padding: 2% 0%;
     padding-left: 2.5%;
@@ -560,13 +561,13 @@ body{
 
     .informacion_interes{
       margin-top: 75%;
-      background-color: gray;
     }
     
     #titulo-interes{
       font-size: 150%;
       width: 38.9%;
       margin-bottom: 4.5%;
+      text-align: center;
     }
   
     .interes-box-content{
@@ -588,32 +589,128 @@ body{
     }
   
     .content-box  #texto-info1{
-      background-color: white;
       margin-left: 175%;
       width: 1400%;
       font-size: 95%;
     }
   
     .content-box  #texto-info2{
-      background-color: white;
       margin-left: 200%;
       width: 1300%;
       font-size: 90%;
     }
     
-    .content-box  #texto-info2{
-      background-color: blue;
+
+    footer{
+      margin-top: 0px;
+      padding-top: 73%;
+      text-align: center;
+      height: 30px;
     }
-
-
   }
 
 
   @media (max-width:500px){
-    #logo{
-      margin-left: 28.0%;
+
+    .menu-expanded  #header #menu-btn{
+      margin-left: 16%;
+      cursor: pointer;
+      padding: 10px;
+      width: 58%;
+      box-sizing: border-box;
     }
   
+    .body-expanded{
+      margin-left: 18%;
+    }
+    
+
+    .menu-expanded #menu-items .item .icon{
+      padding: auto auto;
+      padding-left: 4.8%;
+      padding-bottom: 0%;
+      width: 75%;
+    }
+
+    .menu-expanded{
+      width: 18%;
+    }
+
+    .menu-expanded #header #title{
+      width: 100%;
+      margin-left: 4.5%;
+      padding-bottom: 0%;
+    }
+  
+    .menu-expanded #header #title span{   
+      width: 510%;
+      overflow: hidden;
+      display: inline-block;
+      margin-left: 0%; 
+    }
+
+    #sidemenu #menu-items .item.separator{
+      height: 1px;
+      border-bottom: solid 1px var(--hovercolor);
+      margin: 10% 0;
+    }
+
+    #icon-pic1{
+      margin-top: 2%;
+    }
+
+    #sidemenu #menu-items .item #icon-1{
+      padding-left: 0%;
+      padding-right: 1.5%;
+      width: 25%;
+      text-align: center;
+      font-size: 60%;
+    }
+    #sidemenu #menu-items .item #icon-2{
+      width: 30%;
+      font-size: 60%;
+      padding-left: 3.8%;
+    }
+    #sidemenu #menu-items .item #icon-3{
+      padding-right: 7%;
+      width: 29%;
+      text-align: center;
+      font-size: 60%;
+    }
+    #sidemenu #menu-items .item #icon-4{
+      padding-right: 5.5%;
+      padding-left: 0%;
+      width: 29%;
+      text-align: center;
+      font-size: 60%;
+    }
+    #sidemenu #menu-items .item #icon-5{
+      padding-left: 1%;
+      padding-right: 5%;
+      width: 29%;
+      text-align: center;
+      font-size: 60%;
+    }
+    #sidemenu #menu-items .item #icon-6{
+      padding-left: 0%;
+      padding-right: 4.3%;
+      width: 29%;
+      text-align: center;
+      font-size: 60%;
+    }
+    #sidemenu #menu-items .item #icon-7{
+      padding-left: 0%;
+      padding-right: 0%;
+      width: 25%;
+      text-align: center;
+      font-size: 60%;
+    }
+
+    /*Logo y datos del usuario*/
+    #logo{
+      margin-left: 24.0%;
+    }
+    
     .info #title-Info{
       margin-top: 1%;
       font-size: 8px;
@@ -671,18 +768,17 @@ body{
       height: 40%;
     }
     
-     /*Aca me quede*/
     /*Información*/
 
     .informacion_interes{
       margin-top: 90%;
-      background-color: gray;
     }
     
     #titulo-interes{
       font-size: 150%;
-      width: 38.9%;
+      width: 50%;
       margin-bottom: 4.5%;
+      text-align: center;
     }
   
     .interes-box-content{
@@ -704,23 +800,24 @@ body{
     }
   
     .content-box  #texto-info1{
-      background-color: white;
       margin-left: 175%;
       width: 1400%;
       font-size: 95%;
     }
   
     .content-box  #texto-info2{
-      background-color: white;
       margin-left: 200%;
       width: 1300%;
       font-size: 90%;
     }
     
-    .content-box  #texto-info2{
-      background-color: blue;
-    }
 
+    footer{
+      margin-top: 0px;
+      padding-top: 85%;
+      text-align: center;
+      height: 30px;
+    }
   }
 
  /* .rendimiento{
