@@ -181,7 +181,6 @@ body{
   }
   
   .menu-collapsed #menu-items .item .icon{
-    
     box-sizing: border-box;
     padding: 2% 0%;
     padding-left: 2.5%;
@@ -271,8 +270,7 @@ body{
     text-align: center;
     height: 30px;
   }
-
-  /**/
+  
   .contenido{
     height: 839px;
   }
@@ -393,9 +391,11 @@ body{
   }
   
   #titulo-interes{
-    width: 20%;
+    padding-left: 1.5%;
+    width: 40%;
     margin-left: auto; 
     margin-right: auto;
+    text-align: center;
   }
 
   .interes-box-content{
@@ -442,7 +442,101 @@ body{
 
    /*Media Queries*/
 
-  @media (max-width:800px) {
+  @media (max-width:900px) {
+    /*Menu*/
+    .menu-expanded  #header #menu-btn{
+      background-color: blanchedalmond;
+      margin-left: 31%;
+      cursor: pointer;
+      padding: 10px;
+      width: 68%;
+      box-sizing: border-box;
+    }
+  
+    .body-expanded{
+      margin-left: 18%;
+    }
+    
+    .menu-expanded #menu-items .item .icon{
+      padding: auto auto;
+      padding-left: 15%;
+      padding-bottom: 0%;
+      width: 90%;
+    }
+
+    .menu-expanded{
+      width: 18%;
+    }
+
+    .menu-expanded #header #title{
+      width: 60%;
+      margin-left: 18%;
+      padding-bottom: 0%;
+    }
+  
+    .menu-expanded #header #title span{   
+      width: 400%;
+      overflow: hidden;
+      display: inline-block;
+      margin-left: 0%; 
+    }
+
+    #sidemenu #menu-items .item.separator{
+      height: 1px;
+      border-bottom: solid 1px var(--hovercolor);
+      margin: 10% 0;
+    }
+
+    #icon-pic1{
+      margin-top: 2%;
+    }
+
+    #sidemenu #menu-items .item #icon-1{
+      padding-left: 5%;
+      width: 40%;
+      text-align: center;
+      font-size: 80%;
+
+    }
+    #sidemenu #menu-items .item #icon-2{
+      padding-left: 4%;
+      width: 40%;
+      text-align: center;
+      font-size: 80%;
+    }
+    #sidemenu #menu-items .item #icon-3{
+      padding-left: 3%;
+      width: 40%;
+      text-align: center;
+      font-size: 80%;
+    }
+    #sidemenu #menu-items .item #icon-4{
+      padding-left: 4%;
+      width: 40%;
+      text-align: center;
+      font-size: 80%;
+    }
+    #sidemenu #menu-items .item #icon-5{
+      padding-left: 4%;
+      width: 40%;
+      text-align: center;
+      font-size: 80%;
+    }
+    #sidemenu #menu-items .item #icon-6{
+      padding-left: 4%;
+      width: 40%;
+      text-align: center;
+      font-size: 80%;
+    }
+    #sidemenu #menu-items .item #icon-7{
+      padding-left: 4%;
+      width: 40%;
+      text-align: center;
+      font-size: 80%;
+    }
+
+
+    /*Info*/
     #logo{
       margin-left: 28.0%;
     }
@@ -452,13 +546,14 @@ body{
       margin-left: 50%;
       width: 50%;
       height: 100px;
+      
     }
   
     .info #title-Info{
       font-size: 10px;
       position: absolute;
-      top: 0.5%;
-      left: 52%;
+      top: 1.4%;
+      left: 53.4%;
     }
   
     .info img{
@@ -466,32 +561,29 @@ body{
       height: 7%;
       margin-left: 0.0%;
       position: absolute;
-      top: 3.2%;
+      top: 1%;
       left: 84.7%;
     }
   
     #cerrar-sesion{
       display: inline-block;
       font-size: 50%;
-      padding: 18px;
+      padding: 14px;
       padding-left: 5%;
       padding-right: 5%;
       color: black;
 
       position: absolute;
-      top: 4.3%;
+      top: 4%;
       left: 63.5%;
     }
+    
+    /*Rendimiento*/
 
     .rendimiento{
       width: 100%;
-    
     }
 
-
-
-    /*Rendimiento*/
-  
     .rendimiento .box-rendi{
       width: 70%;
       height: 30%;
@@ -534,7 +626,7 @@ body{
   
     .rendimiento .rendi-datos .mes-text{
       font-size: 200%;
-      margin-top: 2.5%;
+      margin-top: 1.8%;
       margin-left: 10%;
     }
   
@@ -549,6 +641,7 @@ body{
       margin-top: 5%;
       margin-left: 24%;
       width: 45%;
+      
     }
   
     .rendimiento .img-resumen{
@@ -560,7 +653,7 @@ body{
     /*Información*/
 
     .informacion_interes{
-      margin-top: 75%;
+      margin-top: 70%;
     }
     
     #titulo-interes{
@@ -603,14 +696,14 @@ body{
 
     footer{
       margin-top: 0px;
-      padding-top: 73%;
+      padding-top: 70%;
       text-align: center;
       height: 30px;
     }
   }
 
 
-  @media (max-width:500px){
+  @media (max-width:600px){
 
     .menu-expanded  #header #menu-btn{
       margin-left: 16%;
@@ -669,10 +762,13 @@ body{
     #sidemenu #menu-items .item #icon-2{
       width: 30%;
       font-size: 60%;
-      padding-left: 3.8%;
+      padding-left: 0%;
+      padding-right: 6.5%;
+      text-align: center;
     }
     #sidemenu #menu-items .item #icon-3{
-      padding-right: 7%;
+      padding-right: 5%;
+      padding-left: 0%;
       width: 29%;
       text-align: center;
       font-size: 60%;
@@ -758,8 +854,8 @@ body{
     }
   
     .rendimiento .mesage{
-      font-size: 80%;
-      margin-top: 5%;
+      font-size: 78%;
+      margin-top: 8%;
       margin-left: 24%;
       width: 45%;
     }
@@ -814,7 +910,7 @@ body{
 
     footer{
       margin-top: 0px;
-      padding-top: 85%;
+      padding-top: 82%;
       text-align: center;
       height: 30px;
     }
