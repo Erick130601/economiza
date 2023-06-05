@@ -4,12 +4,12 @@
     list-style: none;
     box-sizing: border-box;
 }
-/* body{
+body{
     background: white;
 }
 body::before{
-    background: linear-gradient(blue, aqua);
-} */
+   zoom: 75%;
+}
 nav{
     background: white;
     height: 80px;
