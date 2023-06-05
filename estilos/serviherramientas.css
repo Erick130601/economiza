@@ -23,7 +23,6 @@
     
 
   }
-
   .body-expanded{
     margin-left: 8%;
   }
@@ -266,8 +265,7 @@
     .menu-collapsed #menu-items .title{
      display: none;
      
-    } 
-
+    }
 
 
   .container {
@@ -348,107 +346,106 @@
 
 
   @media  (max-width: 600px){
- /*Header*/
-.menu-expanded  #header #menu-btn{
-  margin-left: 16%;
-  cursor: pointer;
-  padding: 10px;
-  width: 58%;
-  box-sizing: border-box;
-}
 
-.body-expanded{
-  margin-left: 18%;
-}
+    .menu-expanded  #header #menu-btn{
+      margin-left: 16%;
+      cursor: pointer;
+      padding: 10px;
+      width: 58%;
+      box-sizing: border-box;
+    }
+  
+    .body-expanded{
+      margin-left: 18%;
+    }
+    
 
+    .menu-expanded #menu-items .item .icon{
+      padding: auto auto;
+      padding-left: 4.8%;
+      padding-bottom: 0%;
+      width: 75%;
+    }
 
-.menu-expanded #menu-items .item .icon{
-  padding: auto auto;
-  padding-left: 4.8%;
-  padding-bottom: 0%;
-  width: 75%;
-}
+    .menu-expanded{
+      width: 18%;
+    }
 
-.menu-expanded{
-  width: 18%;
-}
+    .menu-expanded #header #title{
+      width: 100%;
+      margin-left: 4.5%;
+      padding-bottom: 0%;
+    }
+  
+    .menu-expanded #header #title span{   
+      width: 510%;
+      overflow: hidden;
+      display: inline-block;
+      margin-left: 0%; 
+    }
 
-.menu-expanded #header #title{
-  width: 100%;
-  margin-left: 4.5%;
-  padding-bottom: 0%;
-}
+    #sidemenu #menu-items .item.separator{
+      height: 1px;
+      border-bottom: solid 1px var(--hovercolor);
+      margin: 10% 0;
+    }
 
-.menu-expanded #header #title span{   
-  width: 510%;
-  overflow: hidden;
-  display: inline-block;
-  margin-left: 0%; 
-}
+    #icon-pic1{
+      margin-top: 2%;
+    }
 
-#sidemenu #menu-items .item.separator{
-  height: 1px;
-  border-bottom: solid 1px var(--hovercolor);
-  margin: 10% 0;
-}
+    #sidemenu #menu-items .item #icon-1{
+      padding-left: 0%;
+      padding-right: 1.5%;
+      width: 25%;
+      text-align: center;
+      font-size: 60%;
+    }
+    #sidemenu #menu-items .item #icon-2{
+      width: 30%;
+      font-size: 60%;
+      padding-left: 0%;
+      padding-right: 6.5%;
+      text-align: center;
+    }
+    #sidemenu #menu-items .item #icon-3{
+      padding-right: 5%;
+      padding-left: 0%;
+      width: 29%;
+      text-align: center;
+      font-size: 60%;
+    }
+    #sidemenu #menu-items .item #icon-4{
+      padding-right: 5.5%;
+      padding-left: 0%;
+      width: 29%;
+      text-align: center;
+      font-size: 60%;
+    }
+    #sidemenu #menu-items .item #icon-5{
+      padding-left: 1%;
+      padding-right: 5%;
+      width: 29%;
+      text-align: center;
+      font-size: 60%;
+    }
+    #sidemenu #menu-items .item #icon-6{
+      padding-left: 0%;
+      padding-right: 4.3%;
+      width: 29%;
+      text-align: center;
+      font-size: 60%;
+    }
+    #sidemenu #menu-items .item #icon-7{
+      padding-left: 0%;
+      padding-right: 0%;
+      width: 25%;
+      text-align: center;
+      font-size: 60%;
+    }
 
-#icon-pic1{
-  margin-top: 2%;
-}
-
-#sidemenu #menu-items .item #icon-1{
-  padding-left: 0%;
-  padding-right: 1.5%;
-  width: 25%;
-  text-align: center;
-  font-size: 60%;
-}
-#sidemenu #menu-items .item #icon-2{
-  width: 30%;
-  font-size: 60%;
-  padding-left: 0%;
-  padding-right: 6.5%;
-  text-align: center;
-}
-#sidemenu #menu-items .item #icon-3{
-  padding-right: 5%;
-  padding-left: 0%;
-  width: 29%;
-  text-align: center;
-  font-size: 60%;
-}
-#sidemenu #menu-items .item #icon-4{
-  padding-right: 5.5%;
-  padding-left: 0%;
-  width: 29%;
-  text-align: center;
-  font-size: 60%;
-}
-#sidemenu #menu-items .item #icon-5{
-  padding-left: 1%;
-  padding-right: 5%;
-  width: 29%;
-  text-align: center;
-  font-size: 60%;
-}
-#sidemenu #menu-items .item #icon-6{
-  padding-left: 0%;
-  padding-right: 4.3%;
-  width: 29%;
-  text-align: center;
-  font-size: 60%;
-}
-#sidemenu #menu-items .item #icon-7{
-  padding-left: 0%;
-  padding-right: 0%;
-  width: 25%;
-  text-align: center;
-  font-size: 60%;
-}
-
-
-
-
+    /*Logo y datos del usuario*/
+    
 #logo{
   margin-left: 24.0%;
 }
@@ -471,20 +468,19 @@
 
 }
 
-#cerrar-sesion{
-  display: inline-block;
-  font-size: 50%;
-  margin-top: 1%;
-  padding: 14px;
-  padding-left: 4%;
-  padding-right: 4%;
-  color: black;
-  position: absolute;
-  top: 4.3%;
-  left: 63.5%;
-}
-
-
+  
+    #cerrar-sesion{
+      display: inline-block;
+      font-size: 50%;
+      margin-top: 1%;
+      padding: 14px;
+      padding-left: 4%;
+      padding-right: 4%;
+      color: black;
+      position: absolute;
+      top: 4.3%;
+      left: 63.5%;
+    }
 
 
    
@@ -499,9 +495,9 @@
     
       .frame {
         margin-top: 0px;
-        margin-left: 0px;
-        width: 360px;
-        height: 870px;
+        margin-left: -10px;
+        width: 300px;
+        height: 950px;
         border: 2px solid black;
         border-radius: 20px;
         display: flex;
@@ -522,7 +518,7 @@
     
       }
       .column1 {
-        transform: translate(0%,182%);
+        transform: translate(0%,186%);
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -534,8 +530,8 @@
       }
     
       .box {
-        width: 300px;
-        height: 110px;
+        width: 250px;
+        height: 120px;
         transform: translate(5%,-150%);
         background-color: rgb(156, 211, 224);
         margin-bottom: 10px;
