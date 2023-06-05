@@ -445,7 +445,6 @@ body{
   @media (max-width:900px) {
     /*Menu*/
     .menu-expanded  #header #menu-btn{
-      background-color: blanchedalmond;
       margin-left: 31%;
       cursor: pointer;
       padding: 10px;
