@@ -639,10 +639,6 @@
       left: 84.5%;
     }
 
-
-
-    
-
     .contenedor {
         width: 200px;
         
@@ -662,22 +658,62 @@
         border-radius: 30px;
       }
       .caja1{
-        width: 375px;
-        height: 100px;
-        text-align: right;
-        font-size: 10px;
+        width: 390px;
+        height: 700px;
         /* text-align: left; */
         background-color: rgb(183, 183, 183);
-        margin-top: 50px;
+   
+        margin-top: 100px;
         margin-left: 20px;
-        padding: 0px 10px;
+        padding: 10px 0;
         float: flex;
         color: black;
-        /* position: relative */
+        position: relative
   
   
       
       }
+      .caja1  h1 {
+          font-size: 20px;
+          text-align: center;
+          padding-top: 60px;
+      }
+      .caja1  h2 {
+        padding: 30px;
+        text-align: justify;
+        font-size: 15px;
+        text-align: center;
+  
+    }
+      .caja1 p {
+  
+          font-size: 20px;
+          padding: 40px;
+          text-align: center;
+  
+      }
+      .caja1 #imgforo{
+          position: relative;
+          transform: translate(0%,-150%);
+          width:80px;
+          
+          height: 80px;
+      }
+      .caja1 button {
+          background-color: blue;
+          display: inline;
+          font-size: 20px;
+          padding: 10px 40px;
+          align-content: center;
+          border-radius: 10px;
+          margin-left: 0px;
+          margin-top: 17px;
+          color: white;
+          font-family: 'ABeeZee', sans-serif;
+          
+        }
+
+        
 
         footer{
             margin-top: 880px;
