@@ -14,7 +14,7 @@
   
   body{
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'ABeeZee', sans-serif;
     font-size: 15px;
     margin-left: var(--width-collapsed);
   
@@ -313,12 +313,12 @@
       border-radius: 30px;
     }
     .caja1{
-      width: 200px;
-      height: 150px;
+      width: 1000px;
+      height: 700px;
       /* text-align: left; */
       background-color: rgb(183, 183, 183);
  
-      margin-top: 50px;
+      margin-top: 100px;
       margin-left: -550px;
       padding: 10px 0;
       float: flex;
@@ -328,6 +328,38 @@
 
     
     }
+    .caja1  h1 {
+        font-size: 50px;
+        text-align: start;
+        padding-top: 10px;
+    }
+    .caja1 p {
+
+        font-size: 30px;
+        padding: 40px;
+        text-align: center;
+
+    }
+    .caja1 #imgforo{
+        position: relative;
+        transform: translate(290%,-70%);
+        width:120px;
+        
+        height: 120px;
+    }
+    .caja1 button {
+        background-color: blue;
+        display: inline;
+        font-size: 20px;
+        padding: 10px 40px;
+        align-content: center;
+        border-radius: 10px;
+        margin-left: 0px;
+        margin-top: 17px;
+        color: white;
+        font-family: 'ABeeZee', sans-serif;
+        
+      }
 
   
   
