@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+
   }
 
   :root{
@@ -18,7 +20,7 @@
     font-size: 15px;
     margin-left: var(--width-collapsed);
 
-    overflow: hidden;
+    
 
   }
 
@@ -330,6 +332,14 @@
     float: left;
 
   }
+  .column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    float: left;
+
+  }
 
   .box {
     width: 400px;
@@ -415,14 +425,14 @@
     }
      */
   /**/
-  footer{
+  /* footer{
     margin-top: 900px;
     padding: 3px;
 
     text-align: center;
     color: black;
-    height: 30px; /* Establece la altura deseada para el footer */
-  }
+    height: 30px; 
+  } */
 
   @media screen and (max-width: 800px){
   /*Header*/
@@ -657,93 +667,101 @@
 
 
 
-    .contenedor {
-        width: 200px;
-
-        margin-left: -2rem;
-        border: 1px solid #cdcdcd;
-        border-radius: 5px;
+   
+    .container {
+        margin-top: 20px;
+        margin-left: 40px;
+    
+    
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .frame {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 360px;
+        height: 870px;
+        border: 2px solid black;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+       
+        border: 3px solid blue;
+       
+      }
+    
+      .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
         float: left;
-        background-color: yellow;
+  
+    
+      }
+      .column1 {
+        transform: translate(0%,182%);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        float: left;
+        float: inline-end;
+    
+      }
+    
+      .box {
+        width: 300px;
+        height: 110px;
+        transform: translate(5%,-150%);
+        background-color: rgb(156, 211, 224);
+        margin-bottom: 10px;
+        padding: 20px;
+        position: relative;
         text-align: center;
-        background-color: rgba(0, 0, 0, 0.16);
-
-        display: block;
-
-        margin-left: 10px;
-        padding: 50px;
-        box-shadow: 5px 5px 5px;
+        float: left;
+        border: 2px solid blue;
         border-radius: 30px;
       }
-      .caja1{
-        width: 400px;
-        height: 600px;
-        /* text-align: left; */
-        background-color: rgb(183, 183, 183);
-
-        margin-top: 100px;
-        margin-left: 10px;
-        padding: 10px 0;
-        float: flex;
-        color: black;
-        position: relative
-
-
-
+      #imgfon{
+        width: 40px;
+        height: 40px;
+        transform: translate(100%,-40%);
+        position: absolute;
       }
-  .caja1 #cajita{
-      width: 300px;
-      height: 300px;
-      border-radius: 40px;
-      background-color: blue;
-      margin-top: 50px;
-      margin-left: 50px;
-      padding: 10px 0;
-      float: flex;
-      color: black;
-      position: relative
-  }
-
-
-  .caja1  h1 {
-          font-size: 20px;
-          text-align: center;
-          padding: 20px;
-          color: white;
-   }
-
-  .caja1 #imgforo{
-          position: relative;
-          transform: translate(0%,10%);
-          width:130px;
-
-          height: 130px;
-  }
-  .caja1 button {
-          background-color: blue;
-          display: inline;
-          font-size: 20px;
-          padding: 20px 40px;
-          align-content: center;
-          border-radius: 10px;
-          margin-left: 0px;
-          margin-top: 50px;
-          color: white;
-          font-family: 'ABeeZee', sans-serif;
-
-       }
+    
+      .text {
+        font-weight: bold;
+        text-align: center;
+        font-family: 'ABeeZee', sans-serif;
+      }
+    
+      .link {
+        color: blue;
+        text-decoration: none;
+        text-align: center;
+      }
+    
+      .link:hover {
+        text-decoration: underline;
+      }
 
 
 
+
+/* 
         footer{
             margin-top: 880px;
             padding: 3px 0;
             position: absolute;
 
             color: black;
-            height: 50px; /* Establece la altura deseada para el footer */
+            height: 50px; 
             transform: translate(140%, 0%);
-          }
+          } */
 
 
 
