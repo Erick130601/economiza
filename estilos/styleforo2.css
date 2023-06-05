@@ -648,6 +648,9 @@
       left: 84.5%;
     }
 
+
+
+
     .contenedor {
         width: 200px;
         
@@ -667,13 +670,13 @@
         border-radius: 30px;
       }
       .caja1{
-        width: 390px;
-        height: 700px;
+        width: 400px;
+        height: 600px;
         /* text-align: left; */
         background-color: rgb(183, 183, 183);
    
         margin-top: 100px;
-        margin-left: 20px;
+        margin-left: 10px;
         padding: 10px 0;
         float: flex;
         color: black;
@@ -682,45 +685,47 @@
   
       
       }
-      .caja1  h1 {
+  .caja1 #cajita{
+      width: 300px;
+      height: 300px;
+      border-radius: 40px;
+      background-color: blue;
+      margin-top: 50px;
+      margin-left: 50px;
+      padding: 10px 0;
+      float: flex;
+      color: black;
+      position: relative
+  }
+  
+  
+  .caja1  h1 {
           font-size: 20px;
           text-align: center;
-          padding-top: 60px;
-      }
-      .caja1  h2 {
-        padding: 30px;
-        text-align: justify;
-        font-size: 15px;
-        text-align: center;
+          padding: 20px;
+          color: white;
+   }
   
-    }
-      .caja1 p {
-  
-          font-size: 20px;
-          padding: 40px;
-          text-align: center;
-  
-      }
-      .caja1 #imgforo{
+  .caja1 #imgforo{
           position: relative;
-          transform: translate(0%,-150%);
-          width:80px;
+          transform: translate(0%,10%);
+          width:130px;
           
-          height: 80px;
-      }
-      .caja1 button {
+          height: 130px;
+  }
+  .caja1 button {
           background-color: blue;
           display: inline;
           font-size: 20px;
-          padding: 10px 40px;
+          padding: 20px 40px;
           align-content: center;
           border-radius: 10px;
           margin-left: 0px;
-          margin-top: 17px;
+          margin-top: 50px;
           color: white;
           font-family: 'ABeeZee', sans-serif;
           
-        }
+       }
 
         
 
