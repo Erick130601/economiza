@@ -8,15 +8,18 @@
   --width: 300px;
   --padding: 10px;
   --bgcolor: rgb(52,52,52);
-  --hovercolor: rgb(100, 1, 1);
+  --hovercolor: rgb(2, 33, 187);
   --width-collapsed: 50px;
 }
 
 body{
   background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'ABeeZee', sans-serif;
   font-size: 15px;
   margin-left: var(--width-collapsed);
+
+  /* overflow: hidden; */
+
 }
 
 .body-expanded{
@@ -157,6 +160,7 @@ body{
   #sidemenu #menu-items .item .icon,
   #sidemenu #menu-items .item .title{
     font-size: 17px;
+    text-align: left;
     vertical-align: middle;
     overflow: hidden;
     /*padding: 5px;
@@ -263,15 +267,6 @@ body{
    
   } 
 
-
-  footer{
-    margin-top: 0px;
-    padding: 6px;
-    text-align: center;
-    height: 30px;
-  }
- 
-  
 
 
     /*Contenido*/
@@ -459,7 +454,14 @@ body{
         color: white;
         cursor: pointer;
       }
-
+      footer{
+        margin-top: 800px;
+        padding: 3px;
+    
+        text-align: center;
+        color: black;
+        height: 30px; /* Establece la altura deseada para el footer */
+      }
 
 
 
