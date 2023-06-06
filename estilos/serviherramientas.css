@@ -343,7 +343,13 @@ body{
   .link:hover {
     text-decoration: underline;
   }
-
+  footer{
+    margin-top: 12px;
+    padding: 3px;
+    text-align: center;
+    color: black;
+    height: 30px; /* Establece la altura deseada para el footer */
+  }
 
 
  /*Media Queries*/

@@ -267,6 +267,10 @@
      
     }
 
+    #nuevo{
+      color: transparent;
+    }
+    
 
   .container {
     margin-top: 40px;
@@ -278,11 +282,11 @@
   }
 
   .frame {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 10px;
     width: 1000px;
     height: 800px;
-    transform: translate(20%,0%);
+    transform: translate(15%,0%);
     border: 2px solid black;
     border-radius: 20px;
     display: flex;
@@ -333,23 +337,6 @@ position: absolute;
   transform: translate(520%,30%);
 }
 
-button {
-  background-color: blue;
-  
-  font-size: 20px;
-  padding: 10px 40px;
-  align-content: center;
-  border-radius: 10px;
-  margin-left: 100px;
-  margin-right: 163px;
-  position: relative;
-  margin-top: 17px;
-  color: white;
-  transform: translate(0%,1400%);
-
-  font-family: 'ABeeZee', sans-serif;
-  
-}
 
 
 
@@ -438,6 +425,52 @@ button {
     transform: translate(-5%,0%);
     height: 30px; /* Establece la altura deseada para el footer */
   }
+
+
+  .botones   {
+
+   width: 0px; 
+  }
+  .nuevo1 button{
+   width: 200px;
+   height: 70px;
+    background-color: blue;
+    font-size: 20px;
+    transform: translate(300%,-185%);
+    padding: 10px 20px;
+    align-content: center;
+    border-radius: 10px;
+   
+    margin-left: 0px;
+    color: white;
+   
+  
+    font-family: 'ABeeZee', sans-serif;
+    
+  }
+  .botones2   {
+
+   width: 0px; 
+  }
+
+
+  .nuevo2 button{
+    width: 200px;
+    height: 70px;
+    transform: translate(500%,-280%);
+    background-color: blue;
+    font-size: 20px;
+    padding: 10px 20px;
+    align-content: center;
+    border-radius: 10px;
+   
+    margin-right: 0px;
+    color: white;
+   
+  
+    font-family: 'ABeeZee', sans-serif;
+  }
+
 
  /*Media Queries*/
   
@@ -812,24 +845,6 @@ button {
     transform: translate(80%,60%);
   }
   
-  button {
-    background-color: blue;
-    
-    font-size: 10px;
-    padding: 10px 40px;
-    align-content: center;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    position: relative;
-    margin-top: 17px;
-    color: white;
-    transform: translate(0%,1600%);
-  
-    font-family: 'ABeeZee', sans-serif;
-    
-  }
-  
   
   
   
@@ -917,6 +932,50 @@ button {
       transform: translate(-5%,0%);
       height: 30px; 
     } */
+
+    .botones   {
+
+      width: 0px; 
+     }
+     .nuevo1 button{
+      width: 130px;
+      height: 70px;
+       background-color: blue;
+       font-size: 15px;
+       transform: translate(20%,-185%);
+       padding: 10px 20px;
+       align-content: center;
+       border-radius: 10px;
+      
+       margin-left: 0px;
+       color: white;
+      
+     
+       font-family: 'ABeeZee', sans-serif;
+       
+     }
+     .botones2   {
+   
+      width: 0px; 
+     }
+   
+   
+     .nuevo2 button{
+       width: 120px;
+       height: 70px;
+       transform: translate(135%,-285%);
+       background-color: blue;
+       font-size: 15px;
+       padding: 10px 20px;
+       align-content: center;
+       border-radius: 10px;
+      
+       margin-right: 0px;
+       color: white;
+      
+     
+       font-family: 'ABeeZee', sans-serif;
+     }
 
 
 

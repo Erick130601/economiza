@@ -342,6 +342,10 @@
     color: black;
     height: 30px; /* Establece la altura deseada para el footer */
   }
+
+  #nuevo{
+    color: transparent;
+  }
   
   
   @media (max-width:900px) {

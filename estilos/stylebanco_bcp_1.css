@@ -271,16 +271,13 @@
       margin-top: 20px;
       color: #003de3;
     }
-    
-  .bcp_listo{
-    fill: orange ;
-  }
+
 
 
 
    .contenedor {
       width: 200px;
-      
+      position: absolute;
       margin-left: -2rem;
       border: 1px solid #cdcdcd;
       border-radius: 5px;
@@ -289,7 +286,7 @@
       text-align: center;
       background-color: rgba(0, 0, 0, 0.16);
 
-      display: block;
+      
 
       margin-left: 10px;
       padding: 50px;
@@ -297,6 +294,7 @@
       border-radius: 30px;
     }
     .caja1{
+      position: static;
       width: 1000px;
       height: 760px;
       /* text-align: left; */
@@ -372,6 +370,9 @@ position: absolute;
     text-align: center;
     color: black;
     height: 30px; /* Establece la altura deseada para el footer */
+  }
+  #nuevo{
+    color: transparent;
   }
 
 
