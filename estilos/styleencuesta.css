@@ -461,6 +461,9 @@ body{
       }
 
 
+
+
+
       @media (max-width:900px) {
         /*Menu*/
         .menu-expanded  #header #menu-btn{
@@ -755,7 +758,7 @@ body{
         /*Contenido*/
 
         .container {
-            width: 310px;
+            width: 286px;
             height: 960px;
             background-color: white;
             border: 2px solid blue;
@@ -796,7 +799,7 @@ body{
             border-radius: 10px;
             padding: 10px;
             display: flex;
-            transform: translate(-10%,-5%);
+            transform: translate(-15%,-5%);
           
             flex-direction: column;
             float: left;
@@ -805,7 +808,7 @@ body{
             
             width: 250px;
             height: 140px;
-            transform: translate(-110%,100%);
+            transform: translate(-115%,100%);
             background-color: #f0f0f0;
             border: 2px solid blue;
             border-radius: 10px;
@@ -821,7 +824,7 @@ body{
             height: 150px;
             position: absolute;
             background-color: #f0f0f0;
-            transform: translate(-10%,100%);
+            transform: translate(-15%,100%);
 
             border: 2px solid blue;
             border-radius: 10px;
@@ -837,7 +840,7 @@ body{
             height: 140px;
             position: absolute;
             background-color: #f0f0f0;
-            transform: translate(-10%,230%);
+            transform: translate(-15%,230%);
             border: 2px solid blue;
             border-radius: 10px;
             padding: 10px;
@@ -928,7 +931,10 @@ body{
 
       footer{
         margin-top: 0px;
-        padding-top: 20%;
+        margin-left: -5px;
+        margin-right: -5px;
+        padding-top: 15%;
+
         text-align: center;
         height: 30px;
       }
