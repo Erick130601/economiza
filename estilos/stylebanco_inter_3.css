@@ -330,8 +330,8 @@ border-radius: 30px;
 position: absolute;
 
   width: 180px;
-  height: 120px;
-  background-color: blue;
+  height: 120px;      
+  background-color: rgb(0, 171, 23);
   border-radius: 30px;
   transform: translate(350%,30%);
 }
@@ -372,7 +372,7 @@ position: absolute;
   .box {
     width: 300px;
     height: 80px;
-    background-color: rgb(243, 81, 0);
+    background-color: rgb(0, 171, 23);
     margin-bottom: 5px;
     padding: 17px;
     position: relative;
@@ -827,7 +827,7 @@ position: absolute;
   
     width: 120px;
     height: 60px;
-    background-color: blue;
+    background-color: rgb(0, 171, 23);
     border-radius: 30px;
     transform: translate(80%,60%);
   }
@@ -860,7 +860,7 @@ position: absolute;
     .box {
       width: 120px;
       height: 50px;
-      background-color: rgb(243, 81, 0);
+      background-color: rgb(0, 171, 23);
       margin-bottom: 5px;
       padding: 10px;
       padding-top: 6px;

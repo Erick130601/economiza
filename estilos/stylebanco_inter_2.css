@@ -267,6 +267,10 @@
      
     }
 
+    #nuevo{
+      color: transparent;
+    }
+    
 
   .container {
     margin-top: 40px;
@@ -278,11 +282,11 @@
   }
 
   .frame {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 10px;
     width: 1000px;
     height: 800px;
-    transform: translate(20%,0%);
+    transform: translate(15%,0%);
     border: 2px solid black;
     border-radius: 20px;
     display: flex;
@@ -296,33 +300,30 @@ h1{
   font-size: 20px;
 }
 h3{
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .arriba1{
-text-align: center;
+text-align: left;
   width: 600px;
-  font-size: 20px;
   height: 50px;
 position: absolute;
-background-color: aqua;
-/* border: 3px solid blue;  */
+border: 3px solid blue; 
 border-radius: 30px;
   padding: 10px;
-  transform: translate(100%,-500%);
+  transform: translate(40%,80%);
 
 
 }
 .arriba2{
-    font-size: 15px;
-  text-align: center;
+  text-align: left;
     width: 600px;
     height: 50px;
   position: absolute;
-  border: 3px solid transparent;
+  border: 3px solid blue;
   border-radius: 30px;
     padding: 10px;
-    transform: translate(100%,-380%);
+    transform: translate(40%,200%);
   
   
   }
@@ -331,12 +332,10 @@ position: absolute;
 
   width: 180px;
   height: 120px;
-  background-color: blue;
+  background-color: rgb(0, 170, 6);
   border-radius: 30px;
-  transform: translate(350%,30%);
+  transform: translate(520%,30%);
 }
-
-
 
 
 
@@ -348,7 +347,7 @@ position: absolute;
 
   .column {
     position: absolute;
-    transform: translate(30%,50%);
+    transform: translate(50%,30%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -358,9 +357,8 @@ position: absolute;
   }
   .column1 {
     position: absolute;
-    transform: translate(200%,50%);
+    transform: translate(250%,0%);
     display: flex;
-   
    
     flex-direction: column;
     justify-content: center;
@@ -370,11 +368,11 @@ position: absolute;
   }
 
   .box {
-    width: 300px;
-    height: 80px;
-    background-color: rgb(243, 81, 0);
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 170, 6);
     margin-bottom: 5px;
-    padding: 17px;
+    padding: 5px;
     position: relative;
     text-align: center;
     float: left;
@@ -383,15 +381,14 @@ position: absolute;
   }
 
   .box1 {
-    width: 300px;
-    height: 80px;
+    width: 210px;
+    height: 50px;
     background-color:transparent;
     margin-bottom: 5px;
-    padding: 15px;
+    padding: 10px;
     position: relative;
     text-align: center;
     float: left;
-    
     border: 2px solid transparent;
     border-radius: 30px;
   }
@@ -409,7 +406,7 @@ position: absolute;
   }
   
   .text1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     font-family: 'ABeeZee', sans-serif;
@@ -429,33 +426,51 @@ position: absolute;
     height: 30px; /* Establece la altura deseada para el footer */
   }
 
+
+  
   .botones   {
 
-    width: 0px; 
-   }
-   .nuevo1 button{
+   width: 0px; 
+  }
+  .nuevo1 button{
+   width: 200px;
+   height: 70px;
+    background-color: blue;
+    font-size: 20px;
+    transform: translate(300%,-185%);
+    padding: 10px 20px;
+    align-content: center;
+    border-radius: 10px;
+   
+    margin-left: 0px;
+    color: white;
+   
+  
+    font-family: 'ABeeZee', sans-serif;
+    
+  }
+  .botones2   {
+
+   width: 0px; 
+  }
+
+
+  .nuevo2 button{
     width: 200px;
     height: 70px;
-     background-color: blue;
-     font-size: 20px;
-     transform: translate(410%,-185%);
-     padding: 10px 20px;
-     align-content: center;
-     border-radius: 10px;
-    
-     margin-left: 0px;
-     color: white;
-    
+    transform: translate(500%,-280%);
+    background-color: blue;
+    font-size: 20px;
+    padding: 10px 20px;
+    align-content: center;
+    border-radius: 10px;
    
-     font-family: 'ABeeZee', sans-serif;
-     
-   }
-
-
-
-
-
-
+    margin-right: 0px;
+    color: white;
+   
+  
+    font-family: 'ABeeZee', sans-serif;
+  }
 
 
  /*Media Queries*/
@@ -600,7 +615,7 @@ position: absolute;
     margin-top: 0px;
     padding-top: 70%;
     text-align: center;
-    height: 20px;
+    height: 30px;
   }
 }
 /*display: flex; align-items: center; justify-content: center;*/
@@ -771,7 +786,7 @@ position: absolute;
     margin-top: 10px;
     margin-left: 10px;
     width: 300px;
-    height: 700px;
+    height: 900px;
     transform: translate(0%,0%);
     border: 2px solid black;
     border-radius: 20px;
@@ -788,7 +803,7 @@ position: absolute;
     font-size: 15px;
   }
   h3{
-    font-size: 12px;
+    font-size: 10px;
   }
   h2{
     font-size: 15px;
@@ -797,14 +812,13 @@ position: absolute;
   .arriba1{
   text-align: left;
     width: 250px;
-    height: 120px;
+    height: 60px;
     text-align: center;
   position: absolute;
-  background-color: aqua;
-
+  border: 3px solid blue; 
   border-radius: 30px;
     padding: 10px;
-    transform: translate(10%,-280%);
+    transform: translate(12%,190%);
   
   
   }
@@ -813,12 +827,12 @@ position: absolute;
       width: 250px;
     text-align: center;
 
-      height: 90px;
+      height: 60px;
     position: absolute;
-   
+    border: 3px solid blue;
     border-radius: 30px;
       padding: 10px;
-      transform: translate(12%,-230%);
+      transform: translate(12%,315%);
     
     
     }
@@ -827,10 +841,14 @@ position: absolute;
   
     width: 120px;
     height: 60px;
-    background-color: blue;
+    background-color: rgb(0, 170, 6);
     border-radius: 30px;
     transform: translate(80%,60%);
   }
+  
+  
+  
+  
   
   
   
@@ -847,7 +865,7 @@ position: absolute;
     }
     .column1 {
       position: absolute;
-      transform: translate(150%,50%);
+      transform: translate(150%,0%);
       display: flex;
      
       flex-direction: column;
@@ -860,10 +878,9 @@ position: absolute;
     .box {
       width: 120px;
       height: 50px;
-      background-color: rgb(243, 81, 0);
+      background-color: rgb(0, 170, 6);
       margin-bottom: 5px;
-      padding: 10px;
-      padding-top: 6px;
+      padding: 5px;
       position: relative;
       text-align: center;
       float: left;
@@ -908,17 +925,25 @@ position: absolute;
     .link:hover {
       text-decoration: underline;
     }
+    /* footer{
+      margin-top: 12px;
+      padding: 3px;
+      text-align: center;
+      color: black;
+      transform: translate(-5%,0%);
+      height: 30px; 
+    } */
 
     .botones   {
 
       width: 0px; 
      }
      .nuevo1 button{
-      width: 200px;
+      width: 130px;
       height: 70px;
        background-color: blue;
-       font-size: 20px;
-       transform: translate(26%,-185%);
+       font-size: 15px;
+       transform: translate(20%,-185%);
        padding: 10px 20px;
        align-content: center;
        border-radius: 10px;
@@ -926,11 +951,34 @@ position: absolute;
        margin-left: 0px;
        color: white;
       
-    
+     
        font-family: 'ABeeZee', sans-serif;
        
      }
-  
+     .botones2   {
+   
+      width: 0px; 
+     }
+   
+   
+     .nuevo2 button{
+       width: 120px;
+       height: 70px;
+       transform: translate(135%,-285%);
+       background-color: blue;
+       font-size: 15px;
+       padding: 10px 20px;
+       align-content: center;
+       border-radius: 10px;
+      
+       margin-right: 0px;
+       color: white;
+      
+     
+       font-family: 'ABeeZee', sans-serif;
+     }
+
+
 
   }
 

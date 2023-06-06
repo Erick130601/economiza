@@ -314,7 +314,7 @@
     width: 700px;
     height: 520px;
     border-radius: 40px;
-    background-color: blue;
+    background-color: red;
     margin-top: 100px;
     margin-left: 150px;
     padding: 10px 0;
@@ -362,7 +362,6 @@ position: absolute;
         
      }
 
-     
   /**/
   footer{
     margin-top: 900px;
@@ -715,7 +714,7 @@ position: absolute;
       width: 260px;
       height: 500px;
       border-radius: 40px;
-      background-color: blue;
+      background-color:red;
       margin-top: 50px;
       margin-left: 14px;
       padding: 10px 0;
