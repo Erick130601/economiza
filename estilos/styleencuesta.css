@@ -726,13 +726,13 @@ body{
         margin-top: 1%;
         font-size: 8px;
         left: 50%;
-transform: translate(-55%,50%);
+     
       }
     
       .info img{
         width: 11%;
         height: 5.5%;
-        margin-left: -8%;
+        margin-left: 0%;
         position: absolute;
         top: 4.3%;
       }
