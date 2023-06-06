@@ -684,16 +684,16 @@ body{
 
   footer{
     margin-top: 0px;
-    padding-top: 82%;
+    padding-top: 30%;
     text-align: center;
-    height: 30px;
+    height: 20px;
   }
 
 
 
   .contenedor {
 
-    font-size: 10px;
+    font-size: 9px;
 
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -707,7 +707,7 @@ body{
 
   }
   .caja1{
-    width: 280px;
+    width: 250px;
     height: 500px;
     margin-top: 20px;
     margin-left: 35px;
@@ -717,7 +717,7 @@ body{
   }
   .caja2{
     float: flex;
-    width: 280px;
+    width: 250px;
     height: 600px;
     margin-top: 20px;
     margin-left: 35px;
@@ -764,7 +764,7 @@ body{
     background-color: blue;
     display: inline;
     font-size: 20px;
-    padding: 10px 40px;
+    padding: 8px 20px;
     align-content: center;
     border-radius: 10px;
     margin-left: 80px;
@@ -785,7 +785,7 @@ body{
 #modal{
  font-family: 'ABeeZee', sans-serif; 
  margin-top:70px;
- margin-left: 70px;
+ margin-left: 40px;
  max-width: 50ch;
  height: 400px;
  width: 300px;
