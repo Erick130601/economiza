@@ -393,9 +393,171 @@
     height: 30px; /* Establece la altura deseada para el footer */
   }
 
+
+ /*Media Queries*/
+  
+ @media (max-width:900px) {
+  /*Menu*/
+  .menu-expanded  #header #menu-btn{
+    margin-left: 31%;
+    cursor: pointer;
+    padding: 10px;
+    width: 68%;
+    box-sizing: border-box;
+  }
+
+  .body-expanded{
+    margin-left: 18%;
+  }
+  
+  .menu-expanded #menu-items .item .icon{
+    padding: auto auto;
+    padding-left: 15%;
+    padding-bottom: 0%;
+    width: 90%;
+  }
+
+  .menu-expanded{
+    width: 18%;
+  }
+
+  .menu-expanded #header #title{
+    width: 60%;
+    margin-left: 18%;
+    padding-bottom: 0%;
+  }
+
+  .menu-expanded #header #title span{   
+    width: 400%;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 0%; 
+  }
+
+  #sidemenu #menu-items .item.separator{
+    height: 1px;
+    border-bottom: solid 1px var(--hovercolor);
+    margin: 10% 0;
+  }
+
+  #icon-pic1{
+    margin-top: 2%;
+  }
+
+  #sidemenu #menu-items .item #icon-1{
+    padding-left: 5%;
+    width: 40%;
+    text-align: center;
+    font-size: 80%;
+
+  }
+  #sidemenu #menu-items .item #icon-2{
+    padding-left: 4%;
+    width: 40%;
+    text-align: center;
+    font-size: 80%;
+  }
+  #sidemenu #menu-items .item #icon-3{
+    padding-left: 3%;
+    width: 40%;
+    text-align: center;
+    font-size: 80%;
+  }
+  #sidemenu #menu-items .item #icon-4{
+    padding-left: 4%;
+    width: 40%;
+    text-align: center;
+    font-size: 80%;
+  }
+  #sidemenu #menu-items .item #icon-5{
+    padding-left: 4%;
+    width: 40%;
+    text-align: center;
+    font-size: 80%;
+  }
+  #sidemenu #menu-items .item #icon-6{
+    padding-left: 4%;
+    width: 40%;
+    text-align: center;
+    font-size: 80%;
+  }
+  #sidemenu #menu-items .item #icon-7{
+    padding-left: 4%;
+    width: 40%;
+    text-align: center;
+    font-size: 80%;
+  }
+
+
+  /*Info*/
+  #logo{
+    margin-left: 28.0%;
+  }
+
+  .info{
+    padding-top: 0.6%;
+    margin-left: 50%;
+    width: 50%;
+    height: 100px;
+    
+  }
+
+  .info #title-Info{
+    font-size: 10px;
+    position: absolute;
+    top: 1.4%;
+    left: 53.4%;
+  }
+
+  .info img{
+    width: 12%;
+    height: 7%;
+    margin-left: 0.0%;
+    position: absolute;
+    top: 1%;
+    left: 84.7%;
+  }
+
+  #cerrar-sesion{
+    display: inline-block;
+    font-size: 50%;
+    padding: 14px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+
+    position: absolute;
+    top: 4%;
+    left: 63.5%;
+  }
+    
+
+  footer{
+    margin-top: 0px;
+    padding-top: 70%;
+    text-align: center;
+    height: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   @media  (max-width: 600px){
  /*Header*/
-.menu-expanded  #header #menu-btn{
+ .menu-expanded  #header #menu-btn{
   margin-left: 16%;
   cursor: pointer;
   padding: 10px;
@@ -492,29 +654,23 @@
   font-size: 60%;
 }
 
-
-
-
+/*Logo y datos del usuario*/
 #logo{
   margin-left: 24.0%;
 }
 
 .info #title-Info{
-  margin-top: 10%;
+  margin-top: 1%;
   font-size: 8px;
-  left: 10%;
-  transform: translate(-50%,40%);
-
+  left: 55%;
 }
 
 .info img{
   width: 11%;
   height: 5.5%;
-  transform: translate(-80%,0%);
-  /* margin-left: 1.4%; */
+  margin-left: 1.4%;
   position: absolute;
   top: 4.3%;
-
 }
 
 #cerrar-sesion{
@@ -531,6 +687,13 @@
 }
 
 
+
+footer{
+  margin-top: 0px;
+  padding-top: 10%;
+  text-align: center;
+  height: 0px;
+}
 
 
     
@@ -554,7 +717,7 @@
         border-radius: 30px;
       }
       .caja1{
-        width: 305px;
+        width: 290px;
         height: 100px;
         text-align: right;
         font-size: 10px;
@@ -571,12 +734,12 @@
       
       }
       .caja1 #cubo{
-          width: 50px;
+          width: 20px;
           height: 100px;
           border-top-left-radius: 30px;
           border-bottom-left-radius: 30px;
           position: absolute;
-          transform: translate(-20%, 0%);
+          transform: translate(-50%, 0%);
           display: flex;
           background-color: rgb(82, 23, 231);
   
@@ -585,10 +748,11 @@
   
       .caja2{
         float: flex;
-        width: 305px;
+        width: 290px;
         font-size: 9px;
         text-align: right;
         height: 100px;
+
         margin-top: 50px;
         margin-left: 20px;
         background-color: rgb(183, 183, 183);
@@ -598,12 +762,12 @@
         
       }
       .caja2 #cubo{
-          width: 50px;
+          width: 20px;
           height: 100px;
           border-top-left-radius: 30px;
           border-bottom-left-radius: 30px;
           position: absolute;
-          transform: translate(-20%, 0%);
+          transform: translate(-50%, 0%);
           display: flex;
           background-color: red;
   
@@ -611,60 +775,60 @@
   
       .caja3{
         float: flex;
-        width: 305px;
+        width: 290px;
         font-size: 9px;
         text-align: right;
         height: 100px;
         margin-top: 50px;
         margin-left: 20px;
         background-color: rgb(183, 183, 183);
-        padding:0px 10px 10px 49px;
+        padding:0px 10px ;
         color: black;
           
       }
       .caja3 #cubo{
-        width: 50px;
+        width: 20px;
         height: 100px;
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
         position: absolute;
-        transform: translate(-100%, 0%);
+        transform: translate(-50%, 0%);
         display: flex;
         background-color: rgb(82, 23, 231);
   
         }
       .caja4{
         float: flex;
-        width: 305px;
+        width: 290px;
         font-size: 9px;
         text-align: right;
         height: 100px;
         margin-top: 50px;
         margin-left: 20px;
         background-color: rgb(183, 183, 183);
-        padding:0px 10px 10px 49px;
+        padding:0px 10px ;
         color: black;
         }
         .caja4 #cubo{
-            width: 50px;
+            width: 20px;
             height: 100px;
             border-top-left-radius: 30px;
             border-bottom-left-radius: 30px;
             position: absolute;
-            transform: translate(-100%, 0%);
+            transform: translate(-50%, 0%);
             display: flex;
             background-color: rgb(82, 23, 231);
       
   
         }
         footer{
-            margin-top: 880px;
+            margin-top: 650px;
             padding: 3px 0;
-            position: absolute;
+ ;
 
             color: black;
             height: 50px; /* Establece la altura deseada para el footer */
-            transform: translate(140%, 0%);
+            
           }
   
   

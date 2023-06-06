@@ -388,8 +388,7 @@ body{
 
 
     
-    /*display: flex; align-items: center; justify-content: center;*/
-     /*Media Queries*/
+ /*Media Queries*/
   
      @media (max-width:900px) {
       /*Menu*/
@@ -534,7 +533,8 @@ body{
         height: 30px;
       }
     }
-
+    /*display: flex; align-items: center; justify-content: center;*/
+    
 
 
 
@@ -680,6 +680,7 @@ body{
     top: 4.3%;
     left: 63.5%;
   }
+
 
 
   footer{
