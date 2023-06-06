@@ -336,23 +336,8 @@ position: absolute;
   transform: translate(350%,30%);
 }
 
-button {
-  background-color: blue;
-  
-  font-size: 20px;
-  padding: 10px 40px;
-  align-content: center;
-  border-radius: 10px;
-  margin-left: 100px;
-  margin-right: 163px;
-  position: relative;
-  margin-top: 17px;
-  color: white;
-  transform: translate(60%,1400%);
 
-  font-family: 'ABeeZee', sans-serif;
-  
-}
+
 
 
 
@@ -440,9 +425,38 @@ button {
     padding: 3px;
     text-align: center;
     color: black;
-    transform: translate(4%,0%);
+    transform: translate(-5%,0%);
     height: 30px; /* Establece la altura deseada para el footer */
   }
+
+  .botones   {
+
+    width: 0px; 
+   }
+   .nuevo1 button{
+    width: 200px;
+    height: 70px;
+     background-color: blue;
+     font-size: 20px;
+     transform: translate(410%,-185%);
+     padding: 10px 20px;
+     align-content: center;
+     border-radius: 10px;
+    
+     margin-left: 0px;
+     color: white;
+    
+   
+     font-family: 'ABeeZee', sans-serif;
+     
+   }
+
+
+
+
+
+
+
 
  /*Media Queries*/
   
@@ -586,7 +600,7 @@ button {
     margin-top: 0px;
     padding-top: 70%;
     text-align: center;
-    height: 30px;
+    height: 20px;
   }
 }
 /*display: flex; align-items: center; justify-content: center;*/
@@ -818,28 +832,6 @@ button {
     transform: translate(80%,60%);
   }
   
-  button {
-    background-color: blue;
-    
-    font-size: 10px;
-    padding: 10px 40px;
-    align-content: center;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    position: relative;
-    margin-top: 17px;
-    color: white;
-    transform: translate(5%,1600%);
-  
-    font-family: 'ABeeZee', sans-serif;
-    
-  }
-  
-  
-  
-  
-  
   
   
   
@@ -916,16 +908,29 @@ button {
     .link:hover {
       text-decoration: underline;
     }
-    /* footer{
-      margin-top: 12px;
-      padding: 3px;
-      text-align: center;
-      color: black;
-      transform: translate(-5%,0%);
-      height: 30px; 
-    } */
 
+    .botones   {
 
+      width: 0px; 
+     }
+     .nuevo1 button{
+      width: 200px;
+      height: 70px;
+       background-color: blue;
+       font-size: 20px;
+       transform: translate(26%,-185%);
+       padding: 10px 20px;
+       align-content: center;
+       border-radius: 10px;
+      
+       margin-left: 0px;
+       color: white;
+      
+     
+       font-family: 'ABeeZee', sans-serif;
+       
+     }
+  
 
   }
 
