@@ -352,6 +352,7 @@ body{
 
   .rendimiento .rendi-datos .mes-text{
     float: left;
+
     font-size: 40px;
     color: white;
     margin-top: 0.1%;
@@ -361,6 +362,8 @@ body{
  .rendimiento .rendi-datos .porcentaje-text{
     float: right;
     font-size: 65px;
+    text-align: center;
+    align-content: center;
     color: white;
     margin-right: 17%;
     margin-top: 1%;
@@ -369,10 +372,11 @@ body{
   .rendimiento .mesage{
     font-size: 25px;
     margin-top: 3%;
-    margin-left: 28%;
+    margin-left: 0%;
     float: left;
     width: 40%;
     text-align: center;
+    align-content: center;
     color: black;
   }
 
