@@ -280,7 +280,7 @@
 
     .container {
         width: 1200px;
-        height: 650px;
+        height: 690px;
         background-color: white;
         border: 2px solid blue;
         border-radius: 20px;
@@ -310,18 +310,96 @@
         justify-content: center;
       }
       
+
       .box {
-        
-        width: calc(40% - 50px);
+            
+        width: 350px;
         height: 150px;
         background-color: #f0f0f0;
         border: 2px solid blue;
         border-radius: 10px;
         padding: 10px;
         display: flex;
-        flex-direction: column;
-      }
+        transform: translate(10%,-5%);
       
+        flex-direction: column;
+        float: left;
+      }
+      .box1 {
+        
+        width: 350px;
+        height: 140px;
+        transform: translate(-15%,0%);
+        background-color: #f0f0f0;
+        border: 2px solid blue;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+
+
+      }
+      .box2 {
+        
+        width: 350px;
+        height: 150px;
+        position: absolute;
+        background-color: #f0f0f0;
+        transform: translate(10%,7%);
+
+        border: 2px solid blue;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+     
+
+      }
+      .box3 {
+        
+        width: 350px;
+        height: 150px;
+        position: absolute;
+        background-color: #f0f0f0;
+        transform: translate(200%,7%);
+        border: 2px solid blue;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+
+      }
+      .box4 {
+        
+        width: 350px;
+        height: 140px;
+        position: absolute;
+        background-color: #f0f0f0;
+        transform: translate(-2%,130%);
+        border: 2px solid blue;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       .title {
         padding-top: 20px;
         text-align: center;
@@ -378,7 +456,8 @@
         background-color: #0330fa;
         font-size: 20px;
         border: none;
-        
+        transform: translate(-50%,500%);
+        position: absolute;
         color: white;
         cursor: pointer;
       }
@@ -494,6 +573,7 @@
       #logo{
         margin-left: 10.0%;
       }
+
       
       .info #title-Info{
         margin-top: 1%;
@@ -528,7 +608,7 @@ transform: translate(-55%,50%);
         /*Contenido*/
 
         .container {
-            width: 320px;
+            width: 310px;
             height: 960px;
             background-color: white;
             border: 2px solid blue;
@@ -569,7 +649,7 @@ transform: translate(-55%,50%);
             border-radius: 10px;
             padding: 10px;
             display: flex;
-            transform: translate(-6%,-5%);
+            transform: translate(-10%,-5%);
           
             flex-direction: column;
             float: left;
@@ -578,7 +658,7 @@ transform: translate(-55%,50%);
             
             width: 250px;
             height: 140px;
-            transform: translate(-105%,100%);
+            transform: translate(-110%,100%);
             background-color: #f0f0f0;
             border: 2px solid blue;
             border-radius: 10px;
@@ -594,7 +674,7 @@ transform: translate(-55%,50%);
             height: 150px;
             position: absolute;
             background-color: #f0f0f0;
-            transform: translate(-5%,100%);
+            transform: translate(-10%,100%);
 
             border: 2px solid blue;
             border-radius: 10px;
@@ -610,7 +690,7 @@ transform: translate(-55%,50%);
             height: 140px;
             position: absolute;
             background-color: #f0f0f0;
-            transform: translate(-5%,230%);
+            transform: translate(-10%,230%);
             border: 2px solid blue;
             border-radius: 10px;
             padding: 10px;
@@ -624,7 +704,7 @@ transform: translate(-55%,50%);
             height: 140px;
             position: absolute;
             background-color: #f0f0f0;
-            transform: translate(2%,330%);
+            transform: translate(-2%,330%);
             border: 2px solid blue;
             border-radius: 10px;
             padding: 10px;
@@ -688,7 +768,7 @@ transform: translate(-55%,50%);
             background-color: #0330fa;
             font-size: 20px;
             border: none;
-            transform: translate(-50%,930%);
+            transform: translate(-55%,930%);
             position: absolute;
             color: white;
             cursor: pointer;
@@ -701,7 +781,7 @@ transform: translate(-55%,50%);
 
       footer{
         margin-top: 0px;
-        padding-top: 82%;
+        padding-top: 20%;
         text-align: center;
         height: 30px;
       }
