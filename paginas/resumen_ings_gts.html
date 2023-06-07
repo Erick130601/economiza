@@ -5,9 +5,7 @@
         <meta name="viewport" content="width=device-with,initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Enconomiza</title>
-        <link rel="stylesheet" href="../estilos/style_resumen.css">
-        <!--Estilo del boton cerrar de la ventana modal-->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link rel="stylesheet" href="../estilos/style_resumen_ings_gts.css">
     </head>
     <body>
 
@@ -112,27 +110,38 @@
  
             <div id="container">
            
-                <a href="#" class="mes">Enero</a>
-                <a href="#" class="mes">Febrero</a>
-                <a href="#" class="mes">Marzo</a>
-                <a href="#" class="mes">Abril</a>
-                <a href="#" class="mes">Mayo</a>
-                <a href="#" class="mes">Junio</a>
-                <a href="#" class="mes">Julio</a>
-                <a href="#" class="mes">Agosto</a>
-                <a href="#" class="mes">Septiembre</a>
-                <a href="#" class="mes">Octubre</a>
-                <a href="#" class="mes">Noviembre</a>
-                <a href="#" class="mes">Diciembre</a>
-                
-                <div class="ventana-modal" id="vtn-modal">
-                    <div class="mdl-contenido" id="mdl-mes-cerrar">
-                        <a href="#" id="btn-cerrar"><i class="fas fa-times"></i></a>
-                        <span  id="mdl-mes">Mes</span>
-                    </div>             
-                    <a href="#" class="mdl-contenido">Ver ingresos vs gastos</a>
-                    <a href="#" class="mdl-contenido" id="mdl-cnt-2">Ver resumen de gastos</a>            
+              <div class="box1">
+                    <span id="box-mes"> Enero</span>
+                    <h2>Ingresos vs Gastos</h2>
+              </div>
+
+              <div class="box2">
+                 <div class="categoria-precio">
+                    <h2 class="name-category">Ingresos</h2>
+                    <span class="precio-category">$ 2.000.00</span>
+                 </div>
+                 <div class="categoria-precio">
+                    <h2 class="name-category">Gastos Fijos</h2>
+                    <span class="precio-category">$ 1.800.00</span>
+                 </div>
+                 <div class="categoria-precio">
+                    <h2 class="name-category">Gastos Variables</h2>
+                    <span class="precio-category">$ 100.00</span>
+                 </div>
+                 <div class="categoria-precio">
+                    <h2 class="name-category">Restante</h2>
+                    <span class="precio-category">$ 100.00</span>
+                 </div>
+             
+              </div>
+
+              <div class="box3">
+                <img src="../imagenes/resumen_ingreso_vs_gasto.png" alt="">
+                <div class="mensaje-alerta">
+                    <h6>Alerta</h6>
+                    <span>Cuida tus gastos fijos!</span>
                 </div>
+              </div>
 
             </div>
 
@@ -159,7 +168,6 @@
             } );
         </script>
 
-    <script src="../java/script_resumen.js"></script>
     </body>
 
 </html>
