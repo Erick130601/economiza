@@ -45,7 +45,3 @@ function activarOverlay() {
     container.classList.remove('container-overlay');
   }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 7ce60e5d532f68dd5a2a1af810c1360979917df0
