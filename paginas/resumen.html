@@ -6,6 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Enconomiza</title>
         <link rel="stylesheet" href="../estilos/style_resumen.css">
+        <!--Estilo del boton cerrar de la ventana modal-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     </head>
     <body>
 
@@ -110,18 +112,27 @@
 
             <div id="container">
            
-                <a href="" class="mes">Enero</a>
-                <a href="" class="mes">Febrero</a>
-                <a href="" class="mes">Marzo</a>
-                <a href="" class="mes">Abril</a>
-                <a href="" class="mes">Mayo</a>
-                <a href="" class="mes">Junio</a>
-                <a href="" class="mes">Julio</a>
-                <a href="" class="mes">Agosto</a>
-                <a href="" class="mes">Septiembre</a>
-                <a href="" class="mes">Octubre</a>
-                <a href="" class="mes">Noviembre</a>
-                <a href="" class="mes">Diciembre</a>
+                <a href="#" class="mes">Enero</a>
+                <a href="#" class="mes">Febrero</a>
+                <a href="#" class="mes">Marzo</a>
+                <a href="#" class="mes">Abril</a>
+                <a href="#" class="mes">Mayo</a>
+                <a href="#" class="mes">Junio</a>
+                <a href="#" class="mes">Julio</a>
+                <a href="#" class="mes">Agosto</a>
+                <a href="#" class="mes">Septiembre</a>
+                <a href="#" class="mes">Octubre</a>
+                <a href="#" class="mes">Noviembre</a>
+                <a href="#" class="mes">Diciembre</a>
+                
+                <div class="ventana-modal" id="vtn-modal">
+                    <div class="mdl-contenido" id="mdl-mes-cerrar">
+                        <a href="#" id="btn-cerrar"><i class="fas fa-times"></i></a>
+                        <span  id="mdl-mes">Mes</span>
+                    </div>             
+                    <a href="#" class="mdl-contenido">Ver ingresos vs gastos</a>
+                    <a href="#" class="mdl-contenido" id="mdl-cnt-2">Ver resumen de gastos</a>            
+                </div>
 
             </div>
 
@@ -147,7 +158,8 @@
                 document.querySelector('body').classList.toggle('body-expanded');
             } );
         </script>
-     
+
+    <script src="../java/script_resumen.js"></script>
     </body>
 
 </html>
