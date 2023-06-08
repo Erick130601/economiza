@@ -19,10 +19,8 @@
     font-family: 'ABeeZee', sans-serif;
     font-size: 15px;
     margin-left: var(--width-collapsed);
-
-    
-
   }
+
   .body-expanded{
     margin-left: 8%;
   }
@@ -304,16 +302,14 @@ h3{
 }
 
 .arriba1{
-text-align: left;
-  width: 600px;
-  height: 50px;
-position: absolute;
-border: 3px solid blue; 
-border-radius: 30px;
-  padding: 10px;
-  transform: translate(40%,80%);
-
-
+   text-align: left;
+   width: 600px;
+   height: 50px;
+   position: absolute;
+   border: 3px solid blue;
+   border-radius: 30px;
+   padding: 10px;
+   transform: translate(40%, 80%);
 }
 .arriba2{
   text-align: left;
@@ -336,15 +332,6 @@ position: absolute;
   border-radius: 30px;
   transform: translate(520%,30%);
 }
-
-
-
-
-
-
-
-
-
   .column {
     position: absolute;
     transform: translate(50%,30%);
@@ -355,6 +342,7 @@ position: absolute;
     float: left;
 
   }
+
   .column1 {
     position: absolute;
     transform: translate(250%,0%);
@@ -412,11 +400,14 @@ position: absolute;
     font-family: 'ABeeZee', sans-serif;
   }
 
-
-
   .link:hover {
     text-decoration: underline;
   }
+
+  .item #icon-pic7{
+    filter: brightness(0.4) contrast(1.9);
+  } 
+
   footer{
     margin-top: 12px;
     padding: 3px;

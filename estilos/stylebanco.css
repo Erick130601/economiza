@@ -420,11 +420,9 @@
       color: #fff;
     }
     
-
-
-
-
-
+    .item #icon-pic7{
+        filter: brightness(0.4) contrast(1.9);
+    } 
     
   /**/
   footer{

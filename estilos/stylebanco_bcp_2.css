@@ -337,14 +337,6 @@ position: absolute;
   transform: translate(520%,30%);
 }
 
-
-
-
-
-
-
-
-
   .column {
     position: absolute;
     transform: translate(50%,30%);
@@ -412,11 +404,14 @@ position: absolute;
     font-family: 'ABeeZee', sans-serif;
   }
 
-
-
   .link:hover {
     text-decoration: underline;
   }
+
+  .item #icon-pic7{
+    filter: brightness(0.4) contrast(1.9);
+  } 
+
   footer{
     margin-top: 12px;
     padding: 3px;
@@ -426,8 +421,6 @@ position: absolute;
     height: 30px; /* Establece la altura deseada para el footer */
   }
 
-
-  
   .botones   {
 
    width: 0px; 

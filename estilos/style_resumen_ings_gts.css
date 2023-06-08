@@ -195,8 +195,7 @@ body{
   /**/
   #sidemenu #menu-items .item .title{
     padding: var(--padding) 0;
-    font-size: 13px;
-    
+    font-size: 13px;  
   }
 
   #sidemenu #menu-items .item #icon-1{
@@ -244,7 +243,6 @@ body{
     overflow: hidden;
     display: inline-block;
     margin-left: 40%;
-    
   }
 
   .menu-collapsed{
@@ -260,9 +258,11 @@ body{
 
   .menu-collapsed #menu-items .title{
    display: none;
-   
   } 
-
+  
+  .item #icon-pic2{
+    filter: brightness(0.4) contrast(1.9);
+  }
 
   footer{
     margin-top: 0px;
@@ -270,7 +270,7 @@ body{
     text-align: center;
     height: 30px;
   }
-  
+ 
   /*Contenido*/
 
   .contenido{

@@ -273,8 +273,6 @@
     }
 
 
-
-
    .contenedor {
       width: 200px;
       position: absolute;
@@ -364,6 +362,11 @@ position: absolute;
 
      
   /**/
+
+  .item #icon-pic7{
+    filter: brightness(0.4) contrast(1.9);
+  } 
+  
   footer{
     margin-top: 900px;
     padding: 3px;

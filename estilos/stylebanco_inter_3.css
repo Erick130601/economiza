@@ -19,9 +19,6 @@
     font-family: 'ABeeZee', sans-serif;
     font-size: 15px;
     margin-left: var(--width-collapsed);
-
-    
-
   }
   .body-expanded{
     margin-left: 8%;
@@ -336,16 +333,6 @@ position: absolute;
   transform: translate(350%,30%);
 }
 
-
-
-
-
-
-
-
-
-
-
   .column {
     position: absolute;
     transform: translate(30%,50%);
@@ -416,10 +403,14 @@ position: absolute;
   }
 
 
-
   .link:hover {
     text-decoration: underline;
   }
+
+  .item #icon-pic7{
+    filter: brightness(0.4) contrast(1.9);
+  } 
+
   footer{
     margin-top: 12px;
     padding: 3px;
@@ -450,13 +441,6 @@ position: absolute;
      font-family: 'ABeeZee', sans-serif;
      
    }
-
-
-
-
-
-
-
 
  /*Media Queries*/
   

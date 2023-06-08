@@ -378,21 +378,6 @@ body{
       }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       .title {
         padding-top: 20px;
         text-align: center;
@@ -454,6 +439,11 @@ body{
         color: white;
         cursor: pointer;
       }
+
+      .item #icon-pic5{
+        filter: brightness(0.4) contrast(1.9);
+      }
+
       footer{
         margin-top: 100px;
         padding: 3px;

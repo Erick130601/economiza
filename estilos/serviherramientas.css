@@ -343,6 +343,12 @@ body{
   .link:hover {
     text-decoration: underline;
   }
+
+  .item #icon-pic3{
+    filter: brightness(0.4) contrast(1.9);
+  }
+
+
   footer{
     margin-top: 12px;
     padding: 3px;

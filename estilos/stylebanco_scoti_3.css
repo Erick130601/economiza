@@ -337,15 +337,6 @@ position: absolute;
 }
 
 
-
-
-
-
-
-
-
-
-
   .column {
     position: absolute;
     transform: translate(30%,50%);
@@ -420,6 +411,11 @@ position: absolute;
   .link:hover {
     text-decoration: underline;
   }
+
+  .item #icon-pic7{
+    filter: brightness(0.4) contrast(1.9);
+} 
+
   footer{
     margin-top: 12px;
     padding: 3px;

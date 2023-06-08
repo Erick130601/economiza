@@ -272,9 +272,6 @@
       color: #003de3;
     }
 
-
-
-
    .contenedor {
       width: 200px;
       position: absolute;
@@ -285,8 +282,6 @@
       background-color: yellow;
       text-align: center;
       background-color: rgba(0, 0, 0, 0.16);
-
-      
 
       margin-left: 10px;
       padding: 50px;
@@ -305,11 +300,9 @@
       padding: 10px 0;
       float: flex;
       color: black;
-      position: relative
-
-
-    
+      position: relative  
     }
+
 .caja1 #cajita{
     width: 700px;
     height: 520px;
@@ -364,6 +357,10 @@ position: absolute;
 
      
   /**/
+  .item #icon-pic7{
+    filter: brightness(0.4) contrast(1.9);
+  } 
+
   footer{
     margin-top: 900px;
     padding: 3px;

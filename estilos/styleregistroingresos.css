@@ -336,12 +336,6 @@ body{
   color: #222;
 }
 
-
-
-
-
-  
-
   button {
     background-color: blue;
     display: inline;
@@ -377,6 +371,11 @@ body{
   
     border-radius: 30px;
   }
+
+  .item #icon-pic1{
+    filter: brightness(0.4) contrast(1.9);
+  }
+
 
   footer{
     margin-top: 12px;

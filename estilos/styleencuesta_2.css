@@ -301,6 +301,7 @@
 
     
     }
+
 .caja1 #cajita{
     width: 700px;
     height: 400px;
@@ -354,6 +355,11 @@
      }
 
   /**/
+
+  .item #icon-pic5{
+    filter: brightness(0.4) contrast(1.9);
+  }
+  
   footer{
     margin-top: 900px;
     padding: 3px;

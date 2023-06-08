@@ -263,6 +263,10 @@ body{
    
   } 
 
+  .item #icon-pic2{
+    filter: brightness(0.4) contrast(1.9);
+  }
+
 
   footer{
     margin-top: 0px;
