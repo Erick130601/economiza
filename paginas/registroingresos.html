@@ -228,7 +228,7 @@
     <dialog id="modal">
         <br></br>
         <br></br>
-        <h2>&nbsp;DATOS REGISTRADOS CORRECTAMENTE</h2>
+        <h2 id="modal-abierto-msg">&nbsp;DATOS REGISTRADOS CORRECTAMENTE</h2>
         <h3>&nbsp;Presione CERRAR para continuar</h3>
         <button id="btn-cerrar-modal">CERRAR</button>
 
@@ -258,6 +258,13 @@
 
 
     <script>
+
+        
+        function cambiar(){
+            document.getElementById("btn-abrir-modal").innerHTML="ACTUALIZAR";
+            document.getElementById("modal-abierto-msg").innerHTML="DATOS ACTUALIZADOS CORRECTAMENTE";
+         }
+
         const btnabrirmodal =
             document.querySelector("#btn-abrir-modal");
         const btncerrarmodal =
@@ -270,7 +277,7 @@
         })
         btncerrarmodal.addEventListener("click", () => {
             modal.close();
-          
+            cambiar();
         })
 
     </script>
