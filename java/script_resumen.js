@@ -5,6 +5,8 @@ const meses = document.querySelectorAll('#container .mes');
 const mdlMes = document.querySelector('#mdl-mes');
 
 // Obtener la ventana modal 
+// Obtener la ventana modal 
+// Obtener la ventana modal 
 const ventanaModal = document.querySelector('.ventana-modal');
 
 //Obtener el enlace del boton cerrar
