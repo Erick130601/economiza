@@ -10,6 +10,7 @@ const mdlMes = document.querySelector('#mdl-mes');
 const ventanaModal = document.querySelector('.ventana-modal');
 
 //Obtener el enlace del boton cerrar
+//Obtener el enlace del boton cerrar
 const enlc_cerrar = document.getElementById('btn-cerrar');
 
 // Agregar un evento de clic a cada enlace de mes
