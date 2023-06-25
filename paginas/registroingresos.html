@@ -258,6 +258,13 @@
 
 
     <script>
+
+        
+        function cambiar(){
+            document.getElementById("btn-abrir-modal").innerHTML="ACTUALIZAR";
+            document.getElementById("modal-abierto-msg").innerHTML="DATOS ACTUALIZADOS CORRECTAMENTE";
+         }
+
         const btnabrirmodal =
             document.querySelector("#btn-abrir-modal");
         const btncerrarmodal =
@@ -270,7 +277,7 @@
         })
         btncerrarmodal.addEventListener("click", () => {
             modal.close();
-          
+            cambiar();
         })
 
     </script>
